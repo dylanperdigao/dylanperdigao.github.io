@@ -3,9 +3,9 @@ header{
 	position: absolute;
 	display:inline-flex;
 	padding-left: 33%;
-	padding-right: 5%;
+	padding-right: 7%;
 	height: 7%;
-	width: 80%;
+	width: 60%;
 	/*text*/
 	text-align:center;
 	vertical-align:middle;
@@ -17,8 +17,8 @@ header{
 }
 .headerBtn{
 	/*position*/
-	margin:1%;
-	width:15%;
+	margin:2%;
+	width:20%;
 	/*border*/
 	border:none;
 	/*text*/

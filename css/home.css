@@ -1,9 +1,74 @@
 .home{
+	/*position*/
+	position:relative;
+	width:100%;
+	height:100%;
+	/*text*/
+	font-family:Poppins;
+	color:whitesmoke;
+}
+
+#c1{
+	/*position*/
 	width:100%;
 	height:100%;
 }
 
-#c1{
-	width:100%;
-	height:100%;
+.home-block1{
+	position: absolute;
+	top:50%;
+	left:2%;
+	width:70%
+}
+.home1{
+	/*position*/
+	position: relative;
+	padding-left: 15%;
+	/*text*/
+	font-size:24px;
+	color:darkgreen;
+}
+.home2{
+	/*position*/
+	position:relative;
+	padding-left: 15%;
+	/*text*/
+	font-weight:bold;
+	font-size:28px;
+}
+.home3{
+	/*position*/
+	position:relative;
+	padding-top: 2%;
+	padding-left: 15%;
+	/*text*/
+	font-size:18px;
+}
+
+.social{
+	/*position*/
+	position: absolute;
+	top:0%;
+	margin: 1%;
+	padding: 1%;
+	height: auto;
+	
+	/*color*/
+	border-radius: 25px;
+	background-color:rgba(255,255,255,0.5);
+}
+.social.img{
+	padding: 1%;
+}
+.social-fb:hover{
+	filter: invert(7%) sepia(100%) saturate(10000%) hue-rotate(247deg) brightness(200%) contrast(144%);
+}
+.social-insta:hover{
+	filter: invert(30%) sepia(97%) saturate(7495%) hue-rotate(295deg) brightness(119%) contrast(117%);
+}
+.social-in:hover{
+	filter: invert(1) sepia(1) saturate(154) hue-rotate(165deg);
+}
+.social-git:hover{
+	filter: invert(1) sepia(1) saturate(100) hue-rotate(320deg);
 }
