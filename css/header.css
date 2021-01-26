@@ -1,0 +1,39 @@
+header{
+	/*position*/
+	display:inline-flex;
+	padding-left: 20%;
+	padding-right: 20%;
+	height: 5vw;
+	width: 60%;
+	/*text*/
+	text-align:center;
+	vertical-align:middle;
+	font-family:Poppins;
+	font-size:1.25vw;
+	/*color*/
+	color:aliceblue;
+	background-color:darkgreen;
+}
+.headerBtn{
+	/*position*/
+	margin:2%;
+	width:20%;
+	/*border*/
+	border:none;
+	/*text*/
+	text-align:inherit;
+	vertical-align:inherit;
+	font-family:inherit;
+	font-size:inherit;
+	/*color*/
+	color:inherit;
+	background-color:inherit;
+}
+.headerBtn:hover{
+	/*text*/
+	cursor:pointer;
+	/*text*/
+	font-size:1.3vw;
+	/*color*/
+	color:blanchedalmond;
+}
