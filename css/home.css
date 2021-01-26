@@ -16,13 +16,16 @@
 
 .home-block1{
 	position: absolute;
-	top:50%;
+	top:40%;
 	left:2%;
-	width:70%
+	width:70%;
+	height:20%;
+	vertical-align:middle;
 }
 .home1{
 	/*position*/
 	position: relative;
+	padding-top: 2%;
 	padding-left: 15%;
 	/*text*/
 	font-size:24px;
@@ -31,6 +34,7 @@
 .home2{
 	/*position*/
 	position:relative;
+	padding-top: 1%;
 	padding-left: 15%;
 	/*text*/
 	font-weight:bold;
@@ -48,27 +52,34 @@
 .social{
 	/*position*/
 	position: absolute;
-	top:0%;
+	top: 0%;
 	margin: 1%;
 	padding: 1%;
-	height: auto;
-	
+	height: 92%;
+	width: 1/6vw;
 	/*color*/
 	border-radius: 25px;
-	background-color:rgba(255,255,255,0.5);
+	background-color:rgba(255,255,255,0.25);
 }
-.social.img{
-	padding: 1%;
+#social{
+	display: flex;
+	width: 100%;
+	height: 25%;
+	vertical-align: middle;
 }
 .social-fb:hover{
+	width:120%;
 	filter: invert(7%) sepia(100%) saturate(10000%) hue-rotate(247deg) brightness(200%) contrast(144%);
 }
 .social-insta:hover{
+	width:120%;
 	filter: invert(30%) sepia(97%) saturate(7495%) hue-rotate(295deg) brightness(119%) contrast(117%);
 }
 .social-in:hover{
+	width:120%;
 	filter: invert(1) sepia(1) saturate(154) hue-rotate(165deg);
 }
 .social-git:hover{
+	width:120%;
 	filter: invert(1) sepia(1) saturate(100) hue-rotate(320deg);
 }
