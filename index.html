@@ -5,6 +5,8 @@
 	<title>Dylan Perdigão | Home</title>
 	<!--Encoding-->
 	<meta charset="UTF-8">
+	<!--Responsive-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<!--Preview-->
     <meta property="og:title" content="Dylan Perdigão" />
     <meta property="og:description" content="Personal website of Dylan Perdigão"/>
@@ -17,33 +19,44 @@
 	<link rel="icon" type="image/png" href="/images/favicon-64x64.png" sizes="64x64"/>
 	<!--CSS-->
 	<link rel="stylesheet" href="css/main.css"> 
-	<link rel="stylesheet" href="css/header.css"> 
-	<link rel="stylesheet" href="css/home.css"> 
+	<link rel="stylesheet" href="css/header.css">
+	<link rel="stylesheet" href="css/footer.css"> 
+	<link rel="stylesheet" href="css/home.css">
+	<link rel="stylesheet" href="css/about.css"> 
 	<!--JavaScript-->
 	<script type="text/javascript" src="js/main.js"></script>
 </head>
 
 <body onload="main()">
-	<section class="home">
-		<header>
-			<button class="headerBtn">Home</button>
-			<button class="headerBtn">About</button>
-			<button class="headerBtn">CV</button>
-			<button class="headerBtn">Projects</button>
-			<button class="headerBtn">Contact</button>
-		</header>
+	<!--HEADER-->
+	<header>
+		<a class="header-link" href="#home">Home</a>
+		<a class="header-link" href="#about">About</a>
+		<a class="header-link" href="#experience">Formation</a>
+		<a class="header-link" href="#projects">Projects</a>
+		<a class="header-link" href="#contact">Contact</a>
+	</header>
+	<!--HOME-->
+	<section id="home">
 		<canvas id="c1" width=1000 height=1000></canvas>
 		<div class="home-block1">
 			<div class="home1">Hello, I'm</div>
 			<div class="home2">Dylan Perdigão</div>
 			<div class="home3">Welcome to my personal website!</div>
-			<div class="social">
-				<a href="https://www.facebook.com/dylanperdigao/"></button><img id="social" class="social-fb" src="images/social/facebook.svg"></a>
-				<a href="https://www.instagram.com/dylanperdigao/"><img id="social" class="social-insta" src="images/social/instagram.svg"></a>
-				<a href="https://www.linkedin.com/in/dylanperdigao/"><img id="social" class="social-in" src="images/social/linkedin.svg"></a>
-				<a href="https://www.github.com/dylanperdigao/"><img id="social" class="social-git" src="images/social/github.svg"></a>
-			</div>
 		</div>
 	</section>
+	<!--ABOUT-->
+	<section id="about">
+		<div class="home-block1">
+			<div class="home1">in construction...</div>
+		</div>
+	</section>
+	
+	<footer>
+		<a class="social" href="https://www.facebook.com/dylanperdigao/"></button><img id="social" class="social-fb" src="images/social/facebook.svg"></a>
+		<a class="social" href="https://www.instagram.com/dylanperdigao/"><img id="social" class="social-insta" src="images/social/instagram.svg"></a>
+		<a class="social" href="https://www.linkedin.com/in/dylanperdigao/"><img id="social" class="social-in" src="images/social/linkedin.svg"></a>
+		<a class="social" href="https://www.github.com/dylanperdigao/"><img id="social" class="social-git" src="images/social/github.svg"></a>
+	</footer>
 </body>
 </html>

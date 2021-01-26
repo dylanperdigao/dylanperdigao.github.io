@@ -1,0 +1,41 @@
+footer{
+	/*position*/
+	position: absolute;
+	bottom:1%;
+	margin-left: 40%;
+	margin-right: 40%;
+	width: 20%;
+	height: 5%;
+	/*text*/
+	display:table;
+	text-align:center;
+	font-family:Poppins;
+	font-size:2vh;
+	/*box*/
+	border-radius: 25px;
+	background-color:rgba(255,255,255,0.25);
+}
+
+.social{
+	/*text*/
+	display:table-cell; 
+	vertical-align:middle;
+}
+#social{
+	/*position*/
+	width:100%;
+	height: 60%;
+}
+
+.social-fb:hover{
+	filter: invert(1) sepia(1) saturate(154) hue-rotate(165deg);
+}
+.social-insta:hover{
+	filter: invert(30%) sepia(97%) saturate(7495%) hue-rotate(295deg) brightness(119%) contrast(117%);
+}
+.social-in:hover{
+	filter: invert(1) sepia(1) saturate(154) hue-rotate(165deg);
+}
+.social-git:hover{
+	filter: invert(1) sepia(1) saturate(100) hue-rotate(320deg);
+}

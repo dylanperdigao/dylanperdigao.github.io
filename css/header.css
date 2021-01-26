@@ -1,40 +1,37 @@
 header{
 	/*position*/
 	position: absolute;
-	display:inline-flex;
-	padding-left: 33%;
-	padding-right: 7%;
-	height: 7%;
+	margin-top:1%;
+	margin-left: 20%;
+	margin-right: 20%;
 	width: 60%;
+	height: 5%;
 	/*text*/
+	display:table;
 	text-align:center;
-	vertical-align:middle;
 	font-family:Poppins;
-	font-size:15px;
+	font-size:1vw;
+	/*box*/
+	border-radius: 25px;
+	background-color:rgba(255,255,255,0.25);
+}
+
+.header-link{
+	/*position*/
+	width: 20%;
+	height: 100%;
+	/*text*/
+	display:table-cell; 
+	vertical-align:middle;
+	text-decoration: none;
 	/*color*/
 	color:aliceblue;
-	background-color:transparent;
 }
-.headerBtn{
-	/*position*/
-	margin:2%;
-	width:20%;
-	/*border*/
-	border:none;
-	/*text*/
-	text-align:inherit;
-	vertical-align:inherit;
-	font-family:inherit;
-	font-size:inherit;
-	/*color*/
-	color:inherit;
-	background-color:inherit;
-}
-.headerBtn:hover{
+.header-link:hover{
 	/*text*/
 	cursor:pointer;
 	/*text*/
-	font-size:16px;
+	font-size:18px;
 	/*color*/
 	color:blanchedalmond;
 }
