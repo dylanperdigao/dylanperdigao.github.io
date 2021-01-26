@@ -6,6 +6,7 @@ footer{
 	margin-right: 40%;
 	width: 20%;
 	height: 5%;
+	z-index: 10;
 	/*text*/
 	display:table;
 	text-align:center;
