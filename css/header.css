@@ -1,23 +1,24 @@
 header{
 	/*position*/
+	position: absolute;
 	display:inline-flex;
-	padding-left: 20%;
-	padding-right: 20%;
-	height: 5vw;
-	width: 60%;
+	padding-left: 33%;
+	padding-right: 5%;
+	height: 7%;
+	width: 80%;
 	/*text*/
 	text-align:center;
 	vertical-align:middle;
 	font-family:Poppins;
-	font-size:1.25vw;
+	font-size:15px;
 	/*color*/
 	color:aliceblue;
-	background-color:darkgreen;
+	background-color:transparent;
 }
 .headerBtn{
 	/*position*/
-	margin:2%;
-	width:20%;
+	margin:1%;
+	width:15%;
 	/*border*/
 	border:none;
 	/*text*/
@@ -33,7 +34,7 @@ header{
 	/*text*/
 	cursor:pointer;
 	/*text*/
-	font-size:1.3vw;
+	font-size:16px;
 	/*color*/
 	color:blanchedalmond;
 }
