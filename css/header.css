@@ -1,4 +1,4 @@
-@media (min-width:601px){
+@media (min-width:1001px){
 	header{
 		/*position*/
 		position: absolute;
@@ -18,7 +18,7 @@
 		background-color:rgba(255,255,255,0.25);
 	}
 }
-@media (max-width: 600px){
+@media (max-width: 1000px){
 	header{
 		/*position*/
 		position: absolute;
@@ -26,13 +26,13 @@
 		margin-left: 1%;
 		margin-right: 1%;
 		width: 98%;
-		height: 10%;
+		height: 7%;
 		z-index: 10;
 		/*text*/
 		display:table;
 		text-align:center;
 		font-family:Poppins;
-		font-size:3.5vw;
+		font-size:100%;
 		/*box*/
 		border-radius: 25px;
 		background-color:rgba(255,255,255,0.25);
