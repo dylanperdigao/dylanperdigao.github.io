@@ -5,7 +5,7 @@ function homeBackground(){
 	var ctx = canvas.getContext('2d');
 	var w = 1000;
 	var h = 1000;
-	ctx.fillStyle = "green";
+	ctx.fillStyle = "#06D6A0";
 	ctx.beginPath();
 		ctx.lineTo(w/3,0,w,0);
 		ctx.lineTo(w,0,w,h);

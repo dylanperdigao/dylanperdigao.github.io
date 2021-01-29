@@ -15,7 +15,6 @@
 		font-size:1vw;
 		/*box*/
 		border-radius: 25px;
-		background-color:rgba(255,255,255,0.25);
 	}
 }
 @media (max-width: 1000px){
@@ -35,7 +34,6 @@
 		font-size:100%;
 		/*box*/
 		border-radius: 25px;
-		background-color:rgba(255,255,255,0.25);
 	}
 }
 
@@ -47,14 +45,10 @@
 	display:table-cell; 
 	vertical-align:middle;
 	text-decoration: none;
-	/*color*/
-	color:aliceblue;
 }
 .header-link:hover{
 	/*text*/
 	cursor:pointer;
 	/*text*/
 	font-size:18px;
-	/*color*/
-	color:blanchedalmond;
 }

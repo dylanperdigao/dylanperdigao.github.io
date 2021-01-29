@@ -12,7 +12,6 @@
 		z-index: 10;
 		/*box*/
 		border-radius: 25px;
-		background-color:rgba(255,255,255,0.25);
 	}
 }
 @media (max-width: 1000px){
@@ -29,7 +28,6 @@
 		z-index: 10;
 		/*box*/
 		border-radius: 25px;
-		background-color:rgba(255,255,255,0.25);
 	}
 }
 

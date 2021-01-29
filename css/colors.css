@@ -1,0 +1,31 @@
+/*MAIN*/
+html,body{
+	background-color: #1B2D46;
+}
+section{
+	color:#FFFCF9;
+}
+h1{
+	color:#06D6A0;
+}
+/*HOME*/
+.home1{
+	color:#06D6A0;
+}
+/*FORMATION*/
+.timeline{
+	background-color:#EF476F;
+}
+.timeline-event-date{
+	background-color:#FFD166;
+}
+/*HEADER/FOOTER*/
+header,footer{
+	background-color:rgba(255,255,255,0.25);
+}
+.header-link{
+	color:#FFFCF9;
+}
+.header-link:hover{
+	color:#FFD166;
+}
