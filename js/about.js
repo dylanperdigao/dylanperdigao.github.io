@@ -33,15 +33,29 @@ function animation(ctx){
 		if(y<ctx.canvas.height/2){
 			r+=interval;
 		}
-		if(r>(4/3)*ctx.canvas.height){
+		if(r/4>ctx.canvas.height){
 			r=0;
 			y=ctx.canvas.height;
 			for(var i=0;i<n;i++){
 				circles[i].move(circles[i].x0,y);
 			}
 		}
+		aboutBackground(ctx);
 		setTimeout(anim,interval);
 	}
 	setTimeout(anim,interval);
 	
+}
+
+function aboutBackground(ctx){
+	let w = ctx.canvas.width;
+	let h = ctx.canvas.height;
+	ctx.fillStyle = "#06D6A0";
+	ctx.beginPath();
+		ctx.lineTo(w*2/3,0,w,0);
+		ctx.lineTo(w,0,w,h);
+		ctx.lineTo(w,h,w*9/10,h);
+		ctx.lineTo(w*9/10,h,w*2/3,0);
+	ctx.stroke();
+	ctx.fill();
 }

@@ -3,6 +3,7 @@
 function main(){
 	homeBackground();
 	aboutAnimation();
+	formationBackground();
 }
 
 
