@@ -12,7 +12,7 @@
 		display:table;
 		text-align:center;
 		font-family:Poppins;
-		font-size:1vw;
+		font-size:100%;
 		/*box*/
 		border-radius: 25px;
 	}
@@ -31,7 +31,7 @@
 		display:table;
 		text-align:center;
 		font-family:Poppins;
-		font-size:100%;
+		font-size:90%;
 		/*box*/
 		border-radius: 25px;
 	}
