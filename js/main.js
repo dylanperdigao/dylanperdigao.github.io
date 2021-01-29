@@ -4,6 +4,7 @@ function main(){
 	homeBackground();
 	aboutAnimation();
 	formationBackground();
+	projectsBackground();
 }
 
 

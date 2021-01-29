@@ -1,0 +1,38 @@
+.projects-table{
+	position: relative;
+	/*position*/
+	width: 80%;
+	height: 40%;
+	padding: 0 10%;
+
+}
+.projects-table-line{
+	display: inline-flex;
+	/*position*/
+	position: relative;
+	width: 100%;
+	height: 50%;
+	margin-top: 5%;
+}
+.projects-table-col{
+	/*position*/
+	position: relative;
+	width: 90%;
+	height: 100%;
+	padding: 0 5%;
+}
+.projects-table-cell{
+	display: block;
+	/*position*/
+	position: relative;
+	padding: auto;
+	width: 100%;
+	height: fit-content;
+	padding: 10% 0;
+	/*text*/
+	text-align: center;
+	text-decoration: none;
+	/*box*/
+	border: 2px solid;
+	box-shadow: 5px 5px;
+}
