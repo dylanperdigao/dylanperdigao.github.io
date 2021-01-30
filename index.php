@@ -34,6 +34,7 @@
 	<script type="text/javascript" src="js/formation.js"></script>
 	<script type="text/javascript" src="js/projects.js"></script>
 	<script type="text/javascript" src="js/classes/Circle.js"></script>
+	<script type="text/php" src="php/mail.php"></script>
 </head>
 
 <body onload="main()">
@@ -126,9 +127,13 @@
 	<!--CONTACT-->
 	<section id="contact">
 		<h1>Contact</h1>
-		<p>
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras cursus felis auctor ligula euismod, non hendrerit turpis faucibus. Phasellus iaculis nisl quis massa maximus aliquam. Duis pulvinar turpis a tortor cursus, suscipit congue tellus sollicitudin. Maecenas et diam id lacus pharetra pellentesque in non augue. Phasellus quis consectetur est, sed efficitur metus. Quisque dui nisl, scelerisque nec euismod consectetur, scelerisque fermentum nisl. Pellentesque sollicitudin urna et dictum iaculis. Cras hendrerit imperdiet justo a mollis. Curabitur vitae fermentum leo. Aliquam dictum dolor tellus, eget lobortis enim finibus eu. Nulla scelerisque ex non velit luctus semper. Mauris scelerisque pellentesque ipsum, eu posuere ligula feugiat ut. Donec quis lacinia dolor.
-		</p>
+		<form action="php/mail.php" method="post">
+			First Name: <input type="text" name="first_name"><br>
+			Last Name: <input type="text" name="last_name"><br>
+			Email: <input type="text" name="email"><br>
+			Message:<br><textarea rows="5" name="message" cols="30"></textarea><br>
+			<input type="submit" name="submit" value="Submit">
+		</form>
 	</section>
 	<!--FOOTER-->
 	<footer>
