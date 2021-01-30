@@ -1,6 +1,3 @@
-#projects{
-	height: 130%;
-}
 /*******************************/
 /*		        TABLE 		   */
 /*******************************/
@@ -19,18 +16,21 @@
 	display: inline-flex;
 	/*position*/
 	position: relative;
-	width: 100%;
 	margin-top: 5%;
 	z-index:inherit;
 }
 @media (min-width: 1001px){
 	.projects-table-line{
-		height: 30%;
+		margin-left: 10%;
+		margin-right: 10%;
+		width: 80%;
+		height: 20%;
 	}
 }
 @media (max-width: 1000px){
 	.projects-table-line{
-		height: 40%;
+		width: 100%;
+		height: 30%;
 	}
 }
 /*******************************/
