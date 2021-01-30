@@ -1,12 +1,8 @@
 "use strict";
 
-function aboutAnimation(){
+function animation(){
 	var canvas = document.getElementById("c2");
 	var ctx = canvas.getContext('2d');
-	animation(ctx);
-}
-
-function animation(ctx){
 	var r=0;
 	var y = ctx.canvas.height;
 	var interval=1;
@@ -45,17 +41,4 @@ function animation(ctx){
 	}
 	setTimeout(anim,interval);
 	
-}
-
-function aboutBackground(ctx){
-	let w = ctx.canvas.width;
-	let h = ctx.canvas.height;
-	ctx.fillStyle = "#06D6A0";
-	ctx.beginPath();
-		ctx.lineTo(w*2/3,0,w,0);
-		ctx.lineTo(w,0,w,h);
-		ctx.lineTo(w,h,w*9/10,h);
-		ctx.lineTo(w*9/10,h,w*2/3,0);
-	ctx.stroke();
-	ctx.fill();
 }

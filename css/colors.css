@@ -32,6 +32,31 @@ h1{
 	color:#1B2D46;
 	background-color:#ffd166;
 }
+/*Contact*/
+form{
+	background-color:#06D6A0;
+}
+::placeholder{
+	color:#1B2D46;
+	opacity:0.5;
+}
+form div input{
+	color:#1B2D46;
+	background-color:#ffd166;
+}
+form div textarea{
+	color:#1B2D46;
+	background-color:#ffd166;
+}
+form div button{
+	color:#FFFCF9;
+	background-color:#EF476F;
+	border-color:#FFFCF9;
+}
+form div button:hover{
+	color:#1B2D46;
+	background-color:#ffd166;
+}
 /*HEADER/FOOTER*/
 header,footer{
 	background-color:#777777c0;
