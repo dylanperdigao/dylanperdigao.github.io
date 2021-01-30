@@ -1,12 +1,26 @@
-form{
-	display: block;
-	margin:auto;
-	width:30%;
-	height:40%;
-	border-radius:5%;
-	/*text*/
-	font-size:16px;
+@media (min-width: 1001px){
+	form{
+		display: block;
+		margin:auto;
+		width:30%;
+		height:40%;
+		border-radius:5%;
+		/*text*/
+		font-size:16px;
+	}
 }
+@media (max-width: 1000px){
+	form{
+		display: block;
+		margin:auto;
+		width:70%;
+		height:60%;
+		border-radius:5%;
+		/*text*/
+		font-size:14px;
+	}
+}
+
 form div{
 	position: relative;
 	padding: 5% 10%;
