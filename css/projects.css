@@ -1,5 +1,6 @@
 .projects-table{
 	position: relative;
+	z-index:5;
 	/*position*/
 	width: 80%;
 	height: 40%;
@@ -11,7 +12,7 @@
 	/*position*/
 	position: relative;
 	width: 100%;
-	height: 50%;
+	height: 30%;
 	margin-top: 5%;
 }
 .projects-table-col{
@@ -21,13 +22,13 @@
 	height: 100%;
 	padding: 0 5%;
 }
+
 .projects-table-cell{
 	display: block;
 	/*position*/
 	position: relative;
 	padding: auto;
 	width: 100%;
-	height: fit-content;
 	padding: 10% 0;
 	/*text*/
 	text-align: center;
@@ -35,4 +36,14 @@
 	/*box*/
 	border: 2px solid;
 	box-shadow: 5px 5px;
+}
+@media (min-width: 1001px){
+	.projects-table-cell{
+		height: 10%;
+	}
+}
+@media (max-width: 1000px){
+	.projects-table-cell{
+		height: 30%;
+	}
 }
