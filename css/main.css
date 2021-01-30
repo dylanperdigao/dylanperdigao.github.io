@@ -1,15 +1,15 @@
 html,body{
 	margin:0;
 	padding:0;
-	width: 100%;
-	height: 100%;
+	width: 100vw;
+	height: 100vh;
 	overflow-x: hidden;
 }
 section{
 	/*position*/
 	position:relative;
-	width:100%;
-	height:100%;
+	width:100vw;
+	height:100vh;
 	z-index:1;
 	/*text*/
 	font-family:Poppins;
