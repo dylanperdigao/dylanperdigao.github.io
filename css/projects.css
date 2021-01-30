@@ -1,3 +1,6 @@
+/*******************************/
+/*		        TABLE 		   */
+/*******************************/
 .projects-table{
 	position: relative;
 	z-index:5;
@@ -5,24 +8,42 @@
 	width: 80%;
 	height: 40%;
 	padding: 0 10%;
-
 }
+/*******************************/
+/*		    TABLE ROW 		   */
+/*******************************/
 .projects-table-line{
 	display: inline-flex;
 	/*position*/
 	position: relative;
 	width: 100%;
-	height: 30%;
 	margin-top: 5%;
+	z-index:inherit;
 }
+@media (min-width: 1001px){
+	.projects-table-line{
+		height: 30%;
+	}
+}
+@media (max-width: 1000px){
+	.projects-table-line{
+		height: 40%;
+	}
+}
+/*******************************/
+/*		    TABLE COLUMN 	   */
+/*******************************/
 .projects-table-col{
 	/*position*/
 	position: relative;
 	width: 90%;
 	height: 100%;
 	padding: 0 5%;
+	z-index:inherit;
 }
-
+/*******************************/
+/*		    TABLE CELL 		   */
+/*******************************/
 .projects-table-cell{
 	display: block;
 	/*position*/
@@ -30,6 +51,7 @@
 	padding: auto;
 	width: 100%;
 	padding: 10% 0;
+	z-index:inherit;
 	/*text*/
 	text-align: center;
 	text-decoration: none;
