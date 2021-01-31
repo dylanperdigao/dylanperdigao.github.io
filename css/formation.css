@@ -85,6 +85,14 @@
 	display: inline-flex;
 	/*position*/
 	position: relative;
-	width: 40%;
-	
+}
+@media (min-width: 1001px){
+	.timeline-event-logo img{
+		width: 40%;
+	}
+}
+@media (max-width: 1000px){
+	.timeline-event-logo img{
+		width: 70%;
+	}
 }
