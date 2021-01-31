@@ -23,12 +23,12 @@ h1{
 	color:#1B2D46;
 }
 /*Projects*/
-.projects-table-cell{
+.projects-cell{
 	color:#FFFCF9;
 	background-color:#EF476F;
 	border-color:#FFFCF9;
 }
-.projects-table-cell:hover{
+.projects-cell:hover{
 	color:#1B2D46;
 	background-color:#ffd166;
 }
