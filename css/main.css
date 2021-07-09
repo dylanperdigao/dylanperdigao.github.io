@@ -1,68 +1,47 @@
 html,body{
 	margin:0;
 	padding:0;
-	width: 100vw;
-	height: 100vh;
 	overflow-x: hidden;
+	font-family: 'Roboto', sans-serif;
+	background-color: #252526;
 }
+
 section{
-	/*position*/
-	position:relative;
-	width:100vw;
-	height:100vh;
-	z-index:1;
-	/*text*/
-	font-family:Poppins;
+	margin: 10% auto;
+	padding: 5%;
+	width: 80%;
+	background-color: #1E1E1E;
+	border-radius: 10px;
 }
-canvas{
-	/*position*/
-	position:absolute;
-	width:100%;
-	height:100%;
-	z-index:0;
-}
-/*******************************/
-/*		        TITLE 		   */
-/*******************************/
+
 h1{
-	/*position*/
-	position:relative;
-	width:80%;
-	height:10%;
-	padding: 10% 10% 5% 10%;
-	margin:0;
-	z-index:7;
-	/*text*/
-	font-family:Poppins;
+	color: #C586C0;
 }
-@media (min-width: 1001px){
-	h1{
-		font-size:300%;
-	}
+
+h2{
+	color: #89C1DE;
 }
-@media (max-width: 1000px){
-	h1{
-		font-size:200%;
-	}
-}
-/*******************************/
-/*		     PARAGRAPH 		   */
-/*******************************/
 p{
-	position:relative;
-	width:80%;
-	height:50%;
-	padding-left:10%;
-	padding-right:10%;
-	z-index:6;
+	color: #B9B9B9;
 }
-@media (min-width: 1001px){
-	p{
-		font-size:100%;
-	}
+orange{
+	color: #CE9178;
 }
-@media (max-width: 1000px){
-	p{
-		font-size:80%;
-	}
+gray{
+	color: #B9B9B9;
+}
+green{
+	color: #4EC8AF;
+}
+img{
+	height : 100px;
+	width : 100px;
+}
+
+.horizontal{
+	display: flex;
+}
+.imgbox{
+	margin:auto;
+	text-align: center;
 }

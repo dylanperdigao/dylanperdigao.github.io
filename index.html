@@ -12,7 +12,9 @@
     <meta property="og:description" content="Personal website of Dylan Perdigão"/>
 	<meta property="og:image" content="/images/icon/preview.png" />
 	<!--Font-->
-	<link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet"/>
+	<link rel="preconnect" href="https://fonts.googleapis.com"> 
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 	<!--Icon-->
     <link rel="icon" type="image/png" href="/images/icon/icon16x16.png" sizes="16x16"/>
     <link rel="icon" type="image/png" href="/images/icon/icon32x32.png" sizes="32x32"/>
@@ -41,17 +43,8 @@
 </head>
 
 <body onload="main()">
-	<!--HEADER-->
-	<header>
-		<a class="header-link" href="#home">Home</a>
-		<a class="header-link" href="#about">About</a>
-		<a class="header-link" href="#formation">Formation</a>
-		<a class="header-link" href="#projects">Projects</a>
-		<a class="header-link" href="#contact">Contact</a>
-	</header>
 	<!--HOME-->
 	<section id="home">
-		<canvas id="c1" width=1000 height=1000></canvas>
 		<div class="home-block1">
 			<div class="home1">Hello, I'm</div>
 			<div class="home2">Dylan Perdigão</div>
@@ -60,89 +53,61 @@
 	</section>
 	<!--ABOUT-->
 	<section id="about">
-		<canvas id="c2" width=1000 height=1000></canvas>
-		<h1>About</h1>
+		<h1>About <gray>{</gray></h1>
 		<div class="about">
 			<p>I'm Dylan Perdigão, a portuguese 21 years old man</p>
-			<p>I'm currently studying Informatics Engineering at the University of Coimbra</p>
+			<p>\tI'm currently studying Informatics Engineering at the University of Coimbra</p>
 			<p>I speak four languages that are Portuguese(Fluent), French(Fluent), English(B2) and German(B2)</p>
 			<p>I've competencies in some programming languages like Python, C, Java, HTML/CSS/JavaScript, PHP, Lex, Yacc and Matlab</p>
 			<p>Others skills I have are in Oriented Object Programming, Software Engineering and Management</p>
 		</div>
+		<h1><gray>}</gray></h1>
 	</section>
-	<!--FORMATION-->
-	<section id="formation">
-		<canvas id="c3" width=1000 height=1000></canvas>
-		<h1>Formation</h1>
-		<div class="formation">
-			<div class="timeline"></div>
-			<div class="timeline-event">
-				<div class="timeline-event-logo">
-					<img id="LDDR" src="images/formation/LDDR.svg">
-				</div>
-				<div class="timeline-event-date">
-					<div>2015</div>
-				</div>
-				<div class="timeline-event-desc">
-					<div class="timeline-event-desc-line1">Lycée Denis-De-Rougemont, Switzerland</div>
-					<div class="timeline-event-desc-line2">Physics and Applied Mathematics</div>
-				</div>
+	<section id="certifications">
+		<h1>Certifications <gray class='gray'>{</gray></h1>
+		<div class="horizontal">
+			<div class='imgbox'>
+				<a href="https://www.credly.com/badges/6106226e-92fc-44c4-89a6-cd4f0e848ca5/public_url">
+					<img src="icons/badges/Azure-AI-Fundamentals-Microsoft.png">
+				</a>
+				<p><orange>'Microsoft'</orange> : <green> Azure AI Fundamentals</green>,</p>
 			</div>
-			<div class="timeline"></div>
-			<div class="timeline-event">
-				<div class="timeline-event-desc">
-					<div class="timeline-event-desc-line1">University of Coimbra, Portugal</div>
-					<div class="timeline-event-desc-line2">Bachelor in Informatics Engineering</div>
-				</div>
-				<div class="timeline-event-date">
-					<div>2018</div>
-				</div>
-				<div class="timeline-event-logo">
-					<img id="FCTUC" src="images/formation/FCTUC.svg">
-				</div>
-			</div>
-			<div class="timeline"></div>
-			<div class="timeline-event">
-				<div class="timeline-event-desc"></div>
-				<div class="timeline-event-date" style="margin-top:7%"><div>Today</div></div>
-				<div class="timeline-event-logo"></div>
+			<div class='imgbox'>
+				<a href="https://www.credly.com/badges/d29590bf-52d4-4be6-9466-5ce56e5952b8/public_url">
+					<img src="icons/badges/IntroductionToCybersecurity-Cisco.png">
+				</a>
+				<p><orange>'Cisco'</orange> : <green> Introduction to Cybersecurity</green></p>
 			</div>
 		</div>
+		<h1><gray>}</gray></h1>
 	</section>
-	<!--PROJECTS-->
-	<section id="projects">
-		<canvas id="c4" width=1000 height=1000></canvas>
-		<h1>Projects</h1>
-			<div class="projects-line">
-				<div class="projects-col"> <a class="projects-cell" href="http://www.unicloud.pt/">UniCloud</a></div>
-				<div class="projects-col"><a class="projects-cell" href="/AcademicusVestibus">Academicus Vestibus</a></div>
+	<section id="certifications">
+		<h1>Certifications <gray class='gray'>{</gray></h1>
+		<div class="horizontal">
+			<div class='imgbox'>
+				<a href="https://www.credly.com/badges/6106226e-92fc-44c4-89a6-cd4f0e848ca5/public_url">
+					<img src="icons/badges/Microsoft-Azure_AI_Fundamentals.png">
+				</a>
+				<p><orange>'Microsoft'</orange> : <green> Azure AI Fundamentals</green>,</p>
 			</div>
-			<div class="projects-line">
-				<div class="projects-col"> <a class="projects-cell" href="/E-Vit">E-Vit</a></div>
-				<div class="projects-col"> <a class="projects-cell" href="/Mini-Pokemon">Mini-Pokemon</a></div>
+			<div class='imgbox'>
+				<a href="https://www.credly.com/badges/d29590bf-52d4-4be6-9466-5ce56e5952b8/public_url">
+					<img src="icons/badges/Cisco-Introduction_To_Cybersecurity.png">
+				</a>
+				<p><orange>'Cisco'</orange> : <green> Introduction to Cybersecurity</green></p>
 			</div>
-			<div class="projects-line">
-				<div class="projects-col"> <a class="projects-cell" href="https://github.com/DylanPerdigao?tab=repositories">Other Projects on Github</a></div>
+			<div class='imgbox'>
+				<a href="https://www.credly.com/badges/24b4c18d-e990-4b98-afdb-3925b7d88b8e/public_url">
+					<img src="icons/badges/Cisco-Cybersecurity_Essentials.png">
+				</a>
+				<p><orange>'Cisco'</orange> : <green> Cybersecurity Essentials</green></p>
 			</div>
-	</section>
-	<!--CONTACT-->
-	<section id="contact">
-		<canvas id="c5" width=1000 height=1000></canvas>
-		<h1>Contact</h1>
-		<form accept-charset="UTF-8" action="https://usebasin.com/f/772232c9b430" enctype="multipart/form-data" target="_blank" method="POST">
-			<div>
-				<input type="email" id="email" name="email" placeholder="email" required>
-				<textarea rows="6" cols="50" name="comment" placeholder="message" required></textarea><br>
-				<button type="submit">Submit</button>
-			</div>
-		</form>
+			
+		</div>
+		<h1><gray>}</gray></h1>
 	</section>
 	<!--FOOTER-->
 	<footer>
-		<a class="social" href="https://www.facebook.com/dylanperdigao/"><img id="social" class="social-fb" src="images/social/facebook.svg"></a>
-		<a class="social" href="https://www.instagram.com/dylanperdigao/"><img id="social" class="social-insta" src="images/social/instagram.svg"></a>
-		<a class="social" href="https://www.linkedin.com/in/dylanperdigao/"><img id="social" class="social-in" src="images/social/linkedin.svg"></a>
-		<a class="social" href="https://www.github.com/dylanperdigao/"><img id="social" class="social-git" src="images/social/github.svg"></a>
 	</footer>
 </body>
 </html>
