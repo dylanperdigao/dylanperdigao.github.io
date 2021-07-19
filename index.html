@@ -12,7 +12,9 @@
     <meta property="og:description" content="Personal website of Dylan Perdigão"/>
 	<meta property="og:image" content="/images/icon/preview.png" />
 	<!--Font-->
-	<link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet"/>
+	<link rel="preconnect" href="https://fonts.googleapis.com"> 
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 	<!--Icon-->
     <link rel="icon" type="image/png" href="/images/icon/icon16x16.png" sizes="16x16"/>
     <link rel="icon" type="image/png" href="/images/icon/icon32x32.png" sizes="32x32"/>
@@ -23,15 +25,10 @@
 	<link rel="shortcut icon" type="image/png" href="/images/icon/icon64x64.png" sizes="64x64"/>
 	<link rel="shortcut icon" type="image/png" href="/images/icon/icon128x128.png" sizes="128x128"/>
 	<!--CSS-->
-	<link rel="stylesheet" href="css/colors.css"> 
-	<link rel="stylesheet" href="css/main.css"> 
-	<link rel="stylesheet" href="css/header.css">
-	<link rel="stylesheet" href="css/footer.css"> 
-	<link rel="stylesheet" href="css/home.css">
-	<link rel="stylesheet" href="css/about.css"> 
-	<link rel="stylesheet" href="css/formation.css"> 
-	<link rel="stylesheet" href="css/projects.css"> 
-	<link rel="stylesheet" href="css/contact.css"> 
+	<link rel="stylesheet" href="css/about.css">
+	<link rel="stylesheet" href="css/skills.css">
+	<link rel="stylesheet" href="css/certifications.css">
+	<link rel="stylesheet" href="css/main.css">
 	<!--JavaScript-->
 	<script type="text/javascript" src="js/main.js"></script>
 	<script type="text/javascript" src="js/classes/Circle.js"></script>
@@ -41,108 +38,72 @@
 </head>
 
 <body onload="main()">
-	<!--HEADER-->
-	<header>
-		<a class="header-link" href="#home">Home</a>
-		<a class="header-link" href="#about">About</a>
-		<a class="header-link" href="#formation">Formation</a>
-		<a class="header-link" href="#projects">Projects</a>
-		<a class="header-link" href="#contact">Contact</a>
-	</header>
-	<!--HOME-->
-	<section id="home">
-		<canvas id="c1" width=1000 height=1000></canvas>
-		<div class="home-block1">
-			<div class="home1">Hello, I'm</div>
-			<div class="home2">Dylan Perdigão</div>
-			<div class="home3">Welcome to my personal website!</div>
+	<!--ABOUT-->
+	<section id="about">
+		<div class="col" style="text-align:center;">
+			<div class="profile">
+				<img src="https://scontent.fopo3-1.fna.fbcdn.net/v/t1.6435-9/89254878_2496307997141483_6751967714941599744_n.jpg?_nc_cat=101&_nc_rgb565=1&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=bFnPHqC7jdUAX-D5ejW&_nc_ht=scontent.fopo3-1.fna&oh=8aad4f131cff9847a6a925ae68b3e3a3&oe=60FB8E08">
+				<p>Hello I'm Dylan Perdigão</p>
+				<p>Welcome to my personal Website</p>
+			</div>
+		</div>
+		<div class="col">
+			<h1>About <gray>{</gray></h1>
+			<div class="about">
+				<p>🎂 : <green>10/06/1999</green> (<green><span id="age"></span></green>)</p>
+				<p>🌍 : <green>Portuguese</green> & <green>Swiss</green></p>
+				<p>📍 : <green>Vendas Novas, PT</green></p>
+			</div>
+			<h1><gray>}</gray></h1>
 		</div>
 	</section>
 	<!--ABOUT-->
-	<section id="about">
-		<canvas id="c2" width=1000 height=1000></canvas>
-		<h1>About</h1>
-		<div class="about">
-			<p>I'm Dylan Perdigão, a portuguese 22 years old man</p>
-			<p>I'm currently studying Informatics Engineering at the University of Coimbra</p>
-			<p>I speak four languages that are Portuguese(Fluent), French(Fluent), English(B2) and German(B2)</p>
-			<p>I've competencies in some programming languages like Python, C, Java, HTML/CSS/JavaScript, PHP, Lex, Yacc and Matlab</p>
-			<p>Others skills I have are in Oriented Object Programming, Software Engineering and Management</p>
-		</div>
+	<section id="language">
+		<h1>Languages <gray>{</gray></h1>
+		<div id="languages"></div>
+		<h1><gray>}</gray></h1>
 	</section>
-	<!--FORMATION-->
-	<section id="formation">
-		<canvas id="c3" width=1000 height=1000></canvas>
-		<h1>Formation</h1>
-		<div class="formation">
-			<div class="timeline"></div>
-			<div class="timeline-event">
-				<div class="timeline-event-logo">
-					<img id="LDDR" src="images/formation/LDDR.svg">
-				</div>
-				<div class="timeline-event-date">
-					<div>2015</div>
-				</div>
-				<div class="timeline-event-desc">
-					<div class="timeline-event-desc-line1">Lycée Denis-De-Rougemont, Switzerland</div>
-					<div class="timeline-event-desc-line2">Physics and Applied Mathematics</div>
-				</div>
-			</div>
-			<div class="timeline"></div>
-			<div class="timeline-event">
-				<div class="timeline-event-desc">
-					<div class="timeline-event-desc-line1">University of Coimbra, Portugal</div>
-					<div class="timeline-event-desc-line2">Bachelor in Informatics Engineering</div>
-				</div>
-				<div class="timeline-event-date">
-					<div>2018</div>
-				</div>
-				<div class="timeline-event-logo">
-					<img id="FCTUC" src="images/formation/FCTUC.svg">
-				</div>
-			</div>
-			<div class="timeline"></div>
-			<div class="timeline-event">
-				<div class="timeline-event-desc"></div>
-				<div class="timeline-event-date" style="margin-top:7%"><div>Today</div></div>
-				<div class="timeline-event-logo"></div>
-			</div>
-		</div>
+	<!--SKILLS-->
+	<section id="skills">
+		<h1>Skills <gray class='gray'>{</gray></h1>
+		<div id="programmingLanguages"></div>
+		<h1><gray>}</gray></h1>
 	</section>
-	<!--PROJECTS-->
-	<section id="projects">
-		<canvas id="c4" width=1000 height=1000></canvas>
-		<h1>Projects</h1>
-			<div class="projects-line">
-				<div class="projects-col"> <a class="projects-cell" href="http://www.unicloud.pt/">UniCloud</a></div>
-				<div class="projects-col"><a class="projects-cell" href="/AcademicusVestibus">Academicus Vestibus</a></div>
-			</div>
-			<div class="projects-line">
-				<div class="projects-col"> <a class="projects-cell" href="/E-Vit">E-Vit</a></div>
-				<div class="projects-col"> <a class="projects-cell" href="/Mini-Pokemon">Mini-Pokemon</a></div>
-			</div>
-			<div class="projects-line">
-				<div class="projects-col"> <a class="projects-cell" href="https://github.com/DylanPerdigao?tab=repositories">Other Projects on Github</a></div>
-			</div>
-	</section>
-	<!--CONTACT-->
-	<section id="contact">
-		<canvas id="c5" width=1000 height=1000></canvas>
-		<h1>Contact</h1>
-		<form accept-charset="UTF-8" action="https://usebasin.com/f/772232c9b430" enctype="multipart/form-data" target="_blank" method="POST">
-			<div>
-				<input type="email" id="email" name="email" placeholder="email" required>
-				<textarea rows="6" cols="50" name="comment" placeholder="message" required></textarea><br>
-				<button type="submit">Submit</button>
-			</div>
-		</form>
+	<section id="certifications">
+		<h1>Certifications <gray class='gray'>{</gray></h1>
+			<h2>Microsoft <gray class='gray'>{</gray></h2>
+				<div class="certificationsGroup">
+					<div class='imgbox'>
+						<a href="https://www.credly.com/badges/6106226e-92fc-44c4-89a6-cd4f0e848ca5/public_url">
+							<img src="icons/badges/Microsoft-Azure_AI_Fundamentals.png" class='certifications'>
+						</a>
+						<p><orange>'Azure AI Fundamentals'</orange> : <green> 05/2021</green></p>
+					</div>
+				</div>
+			<h2><gray>}</gray></h2>
+			<h2>Cisco <gray class='gray'>{</gray></h2>
+				<div class="certificationsGroup">
+					<div class='imgbox'>
+						<a href="https://www.credly.com/badges/d29590bf-52d4-4be6-9466-5ce56e5952b8/public_url">
+							<img src="icons/badges/Cisco-Introduction_To_Cybersecurity.png" class='certifications'>
+						</a>
+						<p><orange>'Introduction to Cybersecurity'</orange> : <green> 03/2021</green>,</p>
+					</div>
+					<div class='imgbox'>
+						<a href="https://www.credly.com/badges/24b4c18d-e990-4b98-afdb-3925b7d88b8e/public_url">
+							<img src="icons/badges/Cisco-Cybersecurity_Essentials.png" class='certifications'>
+						</a>
+						<p><orange>'Cybersecurity Essentials'</orange> : <green>07/2021</green></p>
+					</div>
+				</div>
+			<h2><gray>}</gray></h2>
+		<h1><gray>}</gray></h1>
 	</section>
 	<!--FOOTER-->
-	<footer>
-		<a class="social" href="https://www.facebook.com/dylanperdigao/"><img id="social" class="social-fb" src="images/social/facebook.svg"></a>
-		<a class="social" href="https://www.instagram.com/dylanperdigao/"><img id="social" class="social-insta" src="images/social/instagram.svg"></a>
-		<a class="social" href="https://www.linkedin.com/in/dylanperdigao/"><img id="social" class="social-in" src="images/social/linkedin.svg"></a>
-		<a class="social" href="https://www.github.com/dylanperdigao/"><img id="social" class="social-git" src="images/social/github.svg"></a>
-	</footer>
+		<footer id='footer'>
+			<a href="https://www.linkedin.com/in/dylanperdigao"><img src="icons/social/linkedin-orange.png" class='footer' alt="linkedin logo"></a>
+			<a href="https://www.github.com/DylanPerdigao"><img src="icons/social/github-orange.png" class='footer' alt="github logo"></a>
+			<p>Copyright © | 2021 | Dylan Perdigão</p>
+		</footer>
 </body>
 </html>

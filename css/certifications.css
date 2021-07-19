@@ -1,0 +1,14 @@
+img.certifications{
+    height : 100px;
+    width : 100px;
+}
+
+.certificationsGroup{
+    display: flex;
+    margin-left: 10%;
+}
+.imgbox{
+    margin: auto;
+    text-align: center;
+    vertical-align: middle;
+}
