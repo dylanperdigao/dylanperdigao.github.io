@@ -25,9 +25,11 @@
 	<link rel="shortcut icon" type="image/png" href="/images/icon/icon64x64.png" sizes="64x64"/>
 	<link rel="shortcut icon" type="image/png" href="/images/icon/icon128x128.png" sizes="128x128"/>
 	<!--CSS-->
+	<link rel="stylesheet" href="css/about.css">
+	<link rel="stylesheet" href="css/skills.css">
+	<link rel="stylesheet" href="css/certifications.css">
 	<link rel="stylesheet" href="css/main.css">
 	<!--JavaScript-->
-	<script src='js/sql.js'></script>
 	<script type="text/javascript" src="js/main.js"></script>
 	<script type="text/javascript" src="js/classes/Circle.js"></script>
 	<script type="text/javascript" src="js/classes/Vertex.js"></script>
@@ -36,25 +38,24 @@
 </head>
 
 <body onload="main()">
-	<!--HOME-->
-	<section id="home">
-		<div class="home-block1">
-			<div class="home1">Hello, I'm</div>
-			<div class="home2">Dylan Perdigão</div>
-			<div class="home3">Welcome to my personal website!</div>
-		</div>
-	</section>
 	<!--ABOUT-->
 	<section id="about">
-		<h1>About <gray>{</gray></h1>
-		<div class="about">
-			<p>I'm Dylan Perdigão, a portuguese 21 years old man</p>
-			<p>\tI'm currently studying Informatics Engineering at the University of Coimbra</p>
-			<p>I speak four languages that are Portuguese(Fluent), French(Fluent), English(B2) and German(B2)</p>
-			<p>I've competencies in some programming languages like Python, C, Java, HTML/CSS/JavaScript, PHP, Lex, Yacc and Matlab</p>
-			<p>Others skills I have are in Oriented Object Programming, Software Engineering and Management</p>
+		<div class="col" style="text-align:center;">
+			<div class="profile">
+				<img src="https://scontent.fopo3-1.fna.fbcdn.net/v/t1.6435-9/89254878_2496307997141483_6751967714941599744_n.jpg?_nc_cat=101&_nc_rgb565=1&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=bFnPHqC7jdUAX-D5ejW&_nc_ht=scontent.fopo3-1.fna&oh=8aad4f131cff9847a6a925ae68b3e3a3&oe=60FB8E08">
+				<p>Hello I'm Dylan Perdigão</p>
+				<p>Welcome to my personal Website</p>
+			</div>
 		</div>
-		<h1><gray>}</gray></h1>
+		<div class="col">
+			<h1>About <gray>{</gray></h1>
+			<div class="about">
+				<p>🎂 : <green>10/06/1999</green> (<green><span id="age"></span></green>)</p>
+				<p>🌍 : <green>Portuguese</green> & <green>Swiss</green></p>
+				<p>📍 : <green>Vendas Novas, PT</green></p>
+			</div>
+			<h1><gray>}</gray></h1>
+		</div>
 	</section>
 	<!--ABOUT-->
 	<section id="language">
@@ -100,8 +101,8 @@
 	</section>
 	<!--FOOTER-->
 		<footer id='footer'>
-			<a href="https://www.linkedin.com/in/dylanperdigao"><img src="icons/social/linkedin-orange.png" class='footer'></a>
-			<a href="https://www.github.com/DylanPerdigao"><img src="icons/social/github-orange.png" class='footer'></a>
+			<a href="https://www.linkedin.com/in/dylanperdigao"><img src="icons/social/linkedin-orange.png" class='footer' alt="linkedin logo"></a>
+			<a href="https://www.github.com/DylanPerdigao"><img src="icons/social/github-orange.png" class='footer' alt="github logo"></a>
 			<p>Copyright © | 2021 | Dylan Perdigão</p>
 		</footer>
 </body>

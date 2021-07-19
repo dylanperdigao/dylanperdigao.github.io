@@ -57,52 +57,13 @@ progress::-webkit-progress-bar {
 	background: #252526;
 }
 
-/** Skills **/
-#skills.languages{
-	display: block;
-}
-
-div.skillLine{
-	display:inline-block;
-	text-align:center;
-	width:40%;
-	margin: 5%;
-}
+/** for languages & skills**/
 div.col{
 	display:inline-block;
 	vertical-align:middle;
 	width:50%;
 }
-div.skillLine label{
-	display:inline-block;
-	vertical-align:middle;
-	width:auto;
-	margin-left: 5%;
-}
-img.skill{
-	display:inline-block;
-	vertical-align:middle;
-	margin: auto 1%;
-	height : 50px;
-	width : auto;
-}
 
-
-/** Certifications **/
- img.certifications{
-	height : 100px;
-	width : 100px;
-}
-
-.certificationsGroup{
-	display: flex;
-	margin-left: 10%;
-}
-.imgbox{
-	margin: auto;
-	text-align: center;
-	vertical-align: middle;
-}
 
 /** Footer **/
 footer{
