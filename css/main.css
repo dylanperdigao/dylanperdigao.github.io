@@ -4,6 +4,7 @@ html,body{
 	overflow-x: hidden;
 	font-family: 'Roboto', sans-serif;
 	background-color: #252526;
+	color: #B9B9B9;
 }
 
 section{
@@ -19,6 +20,7 @@ h1{
 }
 
 h2{
+	margin-left: 5%;
 	color: #89C1DE;
 }
 p{
@@ -33,15 +35,82 @@ gray{
 green{
 	color: #4EC8AF;
 }
-img{
+
+progress {
+	display:inline-block;
+	vertical-align:middle;
+
+	appearance: none;
+	border:none;
+
+	color: #4EC8AF;
+	background: #252526;
+}
+
+progress::-moz-progress-bar {
+	background: #4EC8AF;
+}
+progress::-webkit-progress-value {
+	background: #4EC8AF;
+}
+progress::-webkit-progress-bar {
+	background: #252526;
+}
+
+/** Skills **/
+#skills.languages{
+	display: block;
+}
+
+div.skillLine{
+	display:inline-block;
+	text-align:center;
+	width:40%;
+	margin: 5%;
+}
+div.col{
+	display:inline-block;
+	vertical-align:middle;
+	width:50%;
+}
+div.skillLine label{
+	display:inline-block;
+	vertical-align:middle;
+	width:auto;
+	margin-left: 5%;
+}
+img.skill{
+	display:inline-block;
+	vertical-align:middle;
+	margin: auto 1%;
+	height : 50px;
+	width : auto;
+}
+
+
+/** Certifications **/
+ img.certifications{
 	height : 100px;
 	width : 100px;
 }
 
-.horizontal{
+.certificationsGroup{
 	display: flex;
+	margin-left: 10%;
 }
 .imgbox{
-	margin:auto;
+	margin: auto;
 	text-align: center;
+	vertical-align: middle;
+}
+
+/** Footer **/
+footer{
+	text-align: center;
+	background-color: transparent;
+}
+img.footer{
+	margin: auto 1%;
+	height : 20px;
+	width : 20px;
 }

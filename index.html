@@ -25,16 +25,9 @@
 	<link rel="shortcut icon" type="image/png" href="/images/icon/icon64x64.png" sizes="64x64"/>
 	<link rel="shortcut icon" type="image/png" href="/images/icon/icon128x128.png" sizes="128x128"/>
 	<!--CSS-->
-	<link rel="stylesheet" href="css/colors.css"> 
-	<link rel="stylesheet" href="css/main.css"> 
-	<link rel="stylesheet" href="css/header.css">
-	<link rel="stylesheet" href="css/footer.css"> 
-	<link rel="stylesheet" href="css/home.css">
-	<link rel="stylesheet" href="css/about.css"> 
-	<link rel="stylesheet" href="css/formation.css"> 
-	<link rel="stylesheet" href="css/projects.css"> 
-	<link rel="stylesheet" href="css/contact.css"> 
+	<link rel="stylesheet" href="css/main.css">
 	<!--JavaScript-->
+	<script src='js/sql.js'></script>
 	<script type="text/javascript" src="js/main.js"></script>
 	<script type="text/javascript" src="js/classes/Circle.js"></script>
 	<script type="text/javascript" src="js/classes/Vertex.js"></script>
@@ -63,51 +56,53 @@
 		</div>
 		<h1><gray>}</gray></h1>
 	</section>
-	<section id="certifications">
-		<h1>Certifications <gray class='gray'>{</gray></h1>
-		<div class="horizontal">
-			<div class='imgbox'>
-				<a href="https://www.credly.com/badges/6106226e-92fc-44c4-89a6-cd4f0e848ca5/public_url">
-					<img src="icons/badges/Azure-AI-Fundamentals-Microsoft.png">
-				</a>
-				<p><orange>'Microsoft'</orange> : <green> Azure AI Fundamentals</green>,</p>
-			</div>
-			<div class='imgbox'>
-				<a href="https://www.credly.com/badges/d29590bf-52d4-4be6-9466-5ce56e5952b8/public_url">
-					<img src="icons/badges/IntroductionToCybersecurity-Cisco.png">
-				</a>
-				<p><orange>'Cisco'</orange> : <green> Introduction to Cybersecurity</green></p>
-			</div>
-		</div>
+	<!--ABOUT-->
+	<section id="language">
+		<h1>Languages <gray>{</gray></h1>
+		<div id="languages"></div>
+		<h1><gray>}</gray></h1>
+	</section>
+	<!--SKILLS-->
+	<section id="skills">
+		<h1>Skills <gray class='gray'>{</gray></h1>
+		<div id="programmingLanguages"></div>
 		<h1><gray>}</gray></h1>
 	</section>
 	<section id="certifications">
 		<h1>Certifications <gray class='gray'>{</gray></h1>
-		<div class="horizontal">
-			<div class='imgbox'>
-				<a href="https://www.credly.com/badges/6106226e-92fc-44c4-89a6-cd4f0e848ca5/public_url">
-					<img src="icons/badges/Microsoft-Azure_AI_Fundamentals.png">
-				</a>
-				<p><orange>'Microsoft'</orange> : <green> Azure AI Fundamentals</green>,</p>
-			</div>
-			<div class='imgbox'>
-				<a href="https://www.credly.com/badges/d29590bf-52d4-4be6-9466-5ce56e5952b8/public_url">
-					<img src="icons/badges/Cisco-Introduction_To_Cybersecurity.png">
-				</a>
-				<p><orange>'Cisco'</orange> : <green> Introduction to Cybersecurity</green></p>
-			</div>
-			<div class='imgbox'>
-				<a href="https://www.credly.com/badges/24b4c18d-e990-4b98-afdb-3925b7d88b8e/public_url">
-					<img src="icons/badges/Cisco-Cybersecurity_Essentials.png">
-				</a>
-				<p><orange>'Cisco'</orange> : <green> Cybersecurity Essentials</green></p>
-			</div>
-			
-		</div>
+			<h2>Microsoft <gray class='gray'>{</gray></h2>
+				<div class="certificationsGroup">
+					<div class='imgbox'>
+						<a href="https://www.credly.com/badges/6106226e-92fc-44c4-89a6-cd4f0e848ca5/public_url">
+							<img src="icons/badges/Microsoft-Azure_AI_Fundamentals.png" class='certifications'>
+						</a>
+						<p><orange>'Azure AI Fundamentals'</orange> : <green> 05/2021</green></p>
+					</div>
+				</div>
+			<h2><gray>}</gray></h2>
+			<h2>Cisco <gray class='gray'>{</gray></h2>
+				<div class="certificationsGroup">
+					<div class='imgbox'>
+						<a href="https://www.credly.com/badges/d29590bf-52d4-4be6-9466-5ce56e5952b8/public_url">
+							<img src="icons/badges/Cisco-Introduction_To_Cybersecurity.png" class='certifications'>
+						</a>
+						<p><orange>'Introduction to Cybersecurity'</orange> : <green> 03/2021</green>,</p>
+					</div>
+					<div class='imgbox'>
+						<a href="https://www.credly.com/badges/24b4c18d-e990-4b98-afdb-3925b7d88b8e/public_url">
+							<img src="icons/badges/Cisco-Cybersecurity_Essentials.png" class='certifications'>
+						</a>
+						<p><orange>'Cybersecurity Essentials'</orange> : <green>07/2021</green></p>
+					</div>
+				</div>
+			<h2><gray>}</gray></h2>
 		<h1><gray>}</gray></h1>
 	</section>
 	<!--FOOTER-->
-	<footer>
-	</footer>
+		<footer id='footer'>
+			<a href="https://www.linkedin.com/in/dylanperdigao"><img src="icons/social/linkedin-orange.png" class='footer'></a>
+			<a href="https://www.github.com/DylanPerdigao"><img src="icons/social/github-orange.png" class='footer'></a>
+			<p>Copyright © | 2021 | Dylan Perdigão</p>
+		</footer>
 </body>
 </html>

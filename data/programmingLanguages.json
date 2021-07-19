@@ -1,0 +1,14 @@
+{
+  "C" : 85,
+  "C++" : 70,
+  "C#" : 50,
+  "CSS" : 90,
+  "HTML" : 90,
+  "Java" : 90,
+  "JavaScript" : 90,
+  "PHP" : 60,
+  "PostgreSQL" : 70,
+  "Python" : 90,
+  "MatLAB" : 60,
+  "R" : 10
+}
