@@ -26,6 +26,10 @@ h2{
 p{
 	color: #B9B9B9;
 }
+a{
+	text-decoration: none;
+	color: inherit;
+}
 orange{
 	color: #CE9178;
 }

@@ -6,6 +6,9 @@ function main(){
 		.then(lang => fetch('data.json')
 					.then(x => x.text())
 					.then(data => setData(JSON.parse(lang),JSON.parse(data))));
+	fetch('https://api.github.com/users/dylanperdigao/repos')
+		.then(p1 => p1.text())
+		.then(data => setProjects(JSON.parse(data)));
 	setAge();
 }
 
@@ -128,6 +131,33 @@ function setCertifications(lang,certifications){
 	}
 	document.getElementById("certificationsDiv").innerHTML = html;
 }
-
+function setProjects(projects){
+	projects.sort(function(a, b) {
+		let total_a = a.forks_count+a.watchers_count+a.stargazers_count;
+		let total_b = b.forks_count+b.watchers_count+b.stargazers_count;
+		return total_a < total_b;
+	});
+	console.log(projects);
+	let html="";
+	for (let i=0; i<projects.length; i++){
+		if(projects[i].description && projects[i].language){
+			let page="";
+			if(projects[i].has_pages){
+				page="<p><orange>'Try'</orange> : <green><a href='"+projects[i].homepage+"' style='text-decoration: underline'>here</a> 🔗</green>,</p>";
+			}
+			html +=
+				"<h2><a href='"+projects[i].svn_url+"'>"+projects[i].name+"</a><gray className='gray'> 🔗 {</gray></h2>"+
+				"<div class='projectInfo'>"+
+					"<p><orange>'Description'</orange> : <green>"+projects[i].description+"</green>,</p>"+
+					page +
+					"<p><orange>'Language'</orange> : <green>"+projects[i].language+"</green></p>"+
+					"</div>"+
+				"</div>"+
+				"<h2><gray>}</gray></h2>"
+			;
+		}
+	}
+	document.getElementById("projectsDiv").innerHTML = html;
+}
 
 
