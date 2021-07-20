@@ -1,37 +1,12 @@
 "use strict";
 
-let lang = null;
-
 function main(){
 	fetch('lang/EN.json')
-		.then(function(response) {
-			if (!response.ok) {
-				throw new Error("HTTP error, status = " + response.status);
-			}
-			return response.json();
-		})
-		.then(function(json){
-			lang=json;
-			fetch('data.json')
-				.then(function(response) {
-					if (!response.ok) {
-						throw new Error("HTTP error, status = " + response.status);
-					}
-					return response.json();
-				})
-				.then(function(json){
-					setData(json)
-					setAge();
-				})
-				.catch(function(error) {
-					alert(error.message);
-					location.reload();
-				});
-		})
-		.catch(function(error) {
-			alert(error.message);
-			location.reload();
-		});
+		.then(p1 => p1.text())
+		.then(lang => fetch('data.json')
+					.then(x => x.text())
+					.then(data => setData(JSON.parse(lang),JSON.parse(data))));
+	setAge();
 }
 
 function getLangPercent(level){
@@ -57,13 +32,13 @@ function setAge(){
 	}
 	document.getElementById("age").innerHTML = age;
 }
-function setData(data){
-	setLanguages(data.languages);
-	setFormation(data.formation);
-	setSkills(data.skills);
-	setCertifications(data.certifications);
+function setData(lang,data){
+	setLanguages(lang,data.languages);
+	setFormation(lang,data.formation);
+	setSkills(lang,data.skills);
+	setCertifications(lang,data.certifications);
 }
-function setLanguages(languages){
+function setLanguages(lang,languages){
 	let html = "";
 	for (let i=0; i<languages.length; i++){
 		html +=
@@ -81,7 +56,7 @@ function setLanguages(languages){
 	}
 	document.getElementById("languagesDiv").innerHTML = html;
 }
-function setFormation(formation){
+function setFormation(lang,formation){
 	let html="";
 	for (let i=0; i<formation.length; i++){
 		html +=
@@ -107,7 +82,7 @@ function setFormation(formation){
 	}
 	document.getElementById("formationDiv").innerHTML = html;
 }
-function setSkills(skills){
+function setSkills(lang,skills){
 	let html="";
 	skills.sort(function(a, b) {
 		return a.level < b.level;
@@ -128,7 +103,7 @@ function setSkills(skills){
 	}
 	document.getElementById("skillsDiv").innerHTML = html;
 }
-function setCertifications(certifications){
+function setCertifications(lang,certifications){
 	let html="";
 	for (let i=0; i<certifications.length; i++){
 		html +=
