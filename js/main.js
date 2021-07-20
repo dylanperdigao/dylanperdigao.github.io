@@ -3,24 +3,27 @@
 let lang = null;
 
 function main(){
-	loadJSON('lang/EN.json', getLang).then(
-		loadJSON('data.json', setData)
-	);
+	loadJSON('lang/EN.json', function(json){lang=json;})
+	loadJSON('data.json', setData)
 	setAge();
 }
 
-async function loadJSON(url, func){
-	const req = new XMLHttpRequest();
-	req.open('GET', url);
-	req.onload = function () {
-		func(this);
-	};
-	req.send();
+function loadJSON(url,func){
+	fetch(url)
+		.then(function(response) {
+			if (!response.ok) {
+				throw new Error("HTTP error, status = " + response.status);
+			}
+			return response.json();
+		})
+		.then(function(json){
+			func(json)
+		})
+		.catch(function(error) {
+			alert(error.message);
+		});
 }
 
-function getLang(req){
-	lang = JSON.parse(req.responseText);
-}
 function getLangPercent(level){
 	switch(level){
 		case "A1": return 1/6;
@@ -44,8 +47,7 @@ function setAge(){
 	}
 	document.getElementById("age").innerHTML = age;
 }
-function setData(req){
-	let data = JSON.parse(req.responseText);
+function setData(data){
 	setLanguages(data.languages);
 	setFormation(data.formation);
 	setSkills(data.skills);
