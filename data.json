@@ -1,0 +1,146 @@
+{
+  "languages": [
+    {
+      "acronym": "PT",
+      "level": "C2",
+      "img": "icons/languages/PT.png"
+    },
+    {
+      "acronym": "FR",
+      "level": "C2",
+      "img": "icons/languages/FR.png"
+    },
+    {
+      "acronym": "EN",
+      "level": "B2",
+      "img": "icons/languages/EN.png"
+    },
+    {
+      "acronym": "DE",
+      "level": "B2",
+      "img": "icons/languages/DE.png"
+    }
+  ],
+  "formation": [
+    {
+      "institution": "UC",
+      "qualifications": [
+        {
+          "name": "Master",
+          "date": "2021 - ...",
+          "img": "icons/formation/FCTUC.png",
+          "url": "https://www.uc.pt"
+        },
+        {
+          "name": "Bachelor",
+          "date": "2018 - 2021",
+          "img": "icons/formation/FCTUC.png",
+          "url": "https://www.uc.pt"
+        }
+      ]
+    },
+    {
+      "institution": "LDDR",
+      "qualifications": [
+        {
+          "name": "Maturity",
+          "date": "2014 - 2017",
+          "img": "icons/formation/LDDR.png",
+          "url": "https://www.lddr.ch"
+        }
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "C",
+      "level": 85,
+      "img": "icons/programmingLanguages/c.png"
+    },
+    {
+      "name": "C++",
+      "level": 70,
+      "img": "icons/programmingLanguages/cpp.png"
+    },
+    {
+      "name": "C#",
+      "level": 50,
+      "img": "icons/programmingLanguages/csharp.png"
+    },
+    {
+      "name": "CSS",
+      "level": 90,
+      "img": "icons/programmingLanguages/css.png"
+    },
+    {
+      "name": "HTML",
+      "level": 90,
+      "img": "icons/programmingLanguages/html.png"
+    },
+    {
+      "name": "Java",
+      "level": 90,
+      "img": "icons/programmingLanguages/java.png"
+    },
+    {
+      "name": "JavaScript",
+      "level": 90,
+      "img": "icons/programmingLanguages/javascript.png"
+    },
+    {
+      "name": "PHP",
+      "level": 60,
+      "img": "icons/programmingLanguages/php.png"
+    },
+    {
+      "name": "PostgreSQL",
+      "level": 70,
+      "img": "icons/programmingLanguages/postgresql.png"
+    },
+    {
+      "name": "Python",
+      "level": 90,
+      "img": "icons/programmingLanguages/python.png"
+    },
+    {
+      "name": "MatLAB",
+      "level": 60,
+      "img": "icons/programmingLanguages/matlab.png"
+    },
+    {
+      "name": "R",
+      "level": 10,
+      "img": "icons/programmingLanguages/r.png"
+    }
+  ],
+  "certifications": [
+    {
+      "institution": "Microsoft",
+      "badges": [
+        {
+          "name": "Azure AI Fundamentals",
+          "date": "05/2021",
+          "img": "icons/badges/Microsoft-Azure_AI_Fundamentals.png",
+          "url": "https://www.credly.com/badges/6106226e-92fc-44c4-89a6-cd4f0e848ca5/public_url"
+        }
+      ]
+    },
+    {
+      "institution": "Cisco",
+      "badges": [
+        {
+          "name": "Cybersecurity Essentials",
+          "date": "07/2021",
+          "img": "icons/badges/Cisco-Cybersecurity_Essentials.png",
+          "url": "https://www.credly.com/badges/d29590bf-52d4-4be6-9466-5ce56e5952b8/public_url"
+        },
+        {
+          "name": "Introduction to Cybersecurity",
+          "date": "03/2021",
+          "img": "icons/badges/Cisco-Introduction_To_Cybersecurity.png",
+          "url": "https://www.credly.com/badges/24b4c18d-e990-4b98-afdb-3925b7d88b8e/public_url"
+        }
+      ]
+    }
+  ]
+}

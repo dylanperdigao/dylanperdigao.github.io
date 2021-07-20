@@ -28,16 +28,13 @@
 	<link rel="stylesheet" href="css/about.css">
 	<link rel="stylesheet" href="css/skills.css">
 	<link rel="stylesheet" href="css/certifications.css">
+	<link rel="stylesheet" href="css/contact.css">
 	<link rel="stylesheet" href="css/main.css">
 	<!--JavaScript-->
 	<script type="text/javascript" src="js/main.js"></script>
-	<script type="text/javascript" src="js/classes/Circle.js"></script>
-	<script type="text/javascript" src="js/classes/Vertex.js"></script>
-	<script type="text/javascript" src="js/classes/Polygon.js"></script>
-	<script type="text/javascript" src="js/classes/Background.js"></script>
 </head>
 
-<body onload="main()">
+<body onload="main();">
 	<!--ABOUT-->
 	<section id="about">
 		<div class="col" style="text-align:center;">
@@ -50,71 +47,56 @@
 		<div class="col">
 			<h1>About <gray>{</gray></h1>
 			<div class="about">
-				<p>🎂 : <green>10/06/1999</green> (<green><span id="age"></span></green>)</p>
-				<p>🌍 : <green>Portuguese</green> & <green>Swiss</green></p>
+				<p>🎂 : <green>10/06/1999</green> (<green><span id="age"></span></green>),</p>
+				<p>🌍 : <green>Portuguese</green> & <green>Swiss</green>,</p>
 				<p>📍 : <green>Vendas Novas, PT</green></p>
 			</div>
 			<h1><gray>}</gray></h1>
 		</div>
 	</section>
 	<!--ABOUT-->
-	<section id="language">
+	<section id="languages">
 		<h1>Languages <gray>{</gray></h1>
-		<div id="languages"></div>
+		<div id="languagesDiv"></div>
 		<h1><gray>}</gray></h1>
 	</section>
 	<!--SKILLS-->
 	<section id="formation">
 		<h1>Formation <gray>{</gray></h1>
-		<div id="formations">todo</div>
+		<div id="formationDiv">todo</div>
 		<h1><gray>}</gray></h1>
 	</section>
 	<!--SKILLS-->
 	<section id="skills">
 		<h1>Skills <gray class='gray'>{</gray></h1>
-		<div id="programmingLanguages"></div>
+		<div id="skillsDiv"></div>
 		<h1><gray>}</gray></h1>
 	</section>
 	<section id="certifications">
 		<h1>Certifications <gray class='gray'>{</gray></h1>
-			<h2>Microsoft <gray class='gray'>{</gray></h2>
-				<div class="certificationsGroup">
-					<div class='imgbox'>
-						<a href="https://www.credly.com/badges/6106226e-92fc-44c4-89a6-cd4f0e848ca5/public_url">
-							<img src="icons/badges/Microsoft-Azure_AI_Fundamentals.png" class='certifications'>
-						</a>
-						<p><orange>'Azure AI Fundamentals'</orange> : <green> 05/2021</green></p>
-					</div>
-				</div>
-			<h2><gray>}</gray></h2>
-			<h2>Cisco <gray class='gray'>{</gray></h2>
-				<div class="certificationsGroup">
-					<div class='imgbox'>
-						<a href="https://www.credly.com/badges/d29590bf-52d4-4be6-9466-5ce56e5952b8/public_url">
-							<img src="icons/badges/Cisco-Introduction_To_Cybersecurity.png" class='certifications'>
-						</a>
-						<p><orange>'Introduction to Cybersecurity'</orange> : <green> 03/2021</green>,</p>
-					</div>
-					<div class='imgbox'>
-						<a href="https://www.credly.com/badges/24b4c18d-e990-4b98-afdb-3925b7d88b8e/public_url">
-							<img src="icons/badges/Cisco-Cybersecurity_Essentials.png" class='certifications'>
-						</a>
-						<p><orange>'Cybersecurity Essentials'</orange> : <green>07/2021</green></p>
-					</div>
-				</div>
-			<h2><gray>}</gray></h2>
+		<div id="certificationsDiv"></div>
 		<h1><gray>}</gray></h1>
 	</section>
 	<!--Projects-->
-	<section id="project">
+	<section id="projects">
 		<h1>Projects <gray>{</gray></h1>
-		<div id="projects">todo</div>
+		<div id="projectsDiv">todo</div>
 		<h1><gray>}</gray></h1>
 	</section>
 	<!--Contact-->
 	<section id="contact">
 		<h1>Contact <gray>{</gray></h1>
-		<div id="contacts">todo</div>
+		<form accept-charset="UTF-8" action="https://usebasin.com/f/772232c9b430" enctype="multipart/form-data" target="_blank" method="POST">
+			<div id="contactDiv">
+				<h2> E-Mail<gray className='gray'> {</gray></h2>
+					<input type="email" id="email" name="email" placeholder="email" required>
+				<h2><gray>}</gray></h2>
+				<h2> Message<gray className='gray'> {</gray></h2>
+					<textarea rows="6" cols="50" name="comment" placeholder="message" required></textarea><br>
+				<h2><gray>}</gray></h2>
+				<button type="submit">Submit</button>
+			</div>
+		</form>
 		<h1><gray>}</gray></h1>
 	</section>
 	<!--FOOTER-->

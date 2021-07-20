@@ -3,13 +3,13 @@
 let lang = null;
 
 function main(){
-	loadJSON('lang/EN.json', getLang);
-	loadJSON('data/languages.json',setLanguages);
-	loadJSON('data/programmingLanguages.json',setSkills);
+	loadJSON('lang/EN.json', getLang).then(
+		loadJSON('data.json', setData)
+	);
 	setAge();
 }
 
-function loadJSON(url, func){
+async function loadJSON(url, func){
 	const req = new XMLHttpRequest();
 	req.open('GET', url);
 	req.onload = function () {
@@ -44,49 +44,103 @@ function setAge(){
 	}
 	document.getElementById("age").innerHTML = age;
 }
-
-function setLanguages(req){
-	let languages = JSON.parse(req.responseText);
-	for (let l in languages){
-		if (languages.hasOwnProperty(l)){
-			document.getElementById("languages").innerHTML +=
-				"<div class='skillLine'>"+
-				"<div class='col'>"+
-				"<img class='skill' src='icons/languages/"+languages[l][0]+"' alt='language flag'>" +
-				"<label><orange>'"+lang.languages[l]+"'</orange> :</label>" +
-				"</div>"+
-				"<div class='col'>"+
-				"<progress value='"+getLangPercent(languages[l][1])+"'></progress>" +
-				"<label><green>"+languages[l][1]+"</green>,</label>"+
-				"</div>"+
+function setData(req){
+	let data = JSON.parse(req.responseText);
+	setLanguages(data.languages);
+	setFormation(data.formation);
+	setSkills(data.skills);
+	setCertifications(data.certifications);
+}
+function setLanguages(languages){
+	let html = "";
+	for (let i=0; i<languages.length; i++){
+		html +=
+			"<div class='skillLine'>"+
+			"<div class='col'>"+
+			"<img class='skill' src='"+languages[i].img+"' alt='"+lang.languages[languages[i].acronym]+" flag'>" +
+			"<label><orange>'"+lang.languages[languages[i].acronym]+"'</orange> :</label>" +
+			"</div>"+
+			"<div class='col'>"+
+			"<progress value='"+getLangPercent(languages[i].level)+"'></progress>" +
+			"<label><green>"+languages[i].level+"</green>,</label>"+
+			"</div>"+
+			"</div>"
+		;
+	}
+	document.getElementById("languagesDiv").innerHTML = html;
+}
+function setFormation(formation){
+	let html="";
+	for (let i=0; i<formation.length; i++){
+		html +=
+			"<h2>"+lang.institutions[formation[i].institution]+"<gray className='gray'> {</gray></h2>"+
+			"<div class='certificationsGroup'>"
+		;
+		let qualifications = formation[i].qualifications;
+		for(let j=0; j<qualifications.length; j++){
+			html +=
+				"<div class='imgbox'>"+
+				"<a href='"+qualifications[j].url+"'>"+
+				"<img src='"+qualifications[j].img+"' class='certifications' alt='"+formation[i].institution+" logo'>"+
+				"</a>"+
+				"<p><orange>'"+lang.formation[qualifications[j].name]+"'</orange> : <green>"+qualifications[j].date+"</green></p>"+
 				"</div>"
 			;
 		}
+		html +=
+			"</div>"+
+			"<h2><gray>}</gray></h2>"
+		;
+
 	}
+	document.getElementById("formationDiv").innerHTML = html;
 }
-function setSkills(req){
-	let languages = JSON.parse(req.responseText);
-	languages = Object.keys(languages).map(function(key) {
-		return [key, languages[key]];
+function setSkills(skills){
+	let html="";
+	skills.sort(function(a, b) {
+		return a.level < b.level;
 	});
-	languages.sort(function(first, second) {
-		return second[1][1] - first[1][1];
-	});
-	
-	for (let i=0;i<languages.length;i++){
-		document.getElementById("programmingLanguages").innerHTML +=
+	for (let i=0; i<skills.length; i++){
+		html +=
 			"<div class='skillLine'>"+
 				"<div class='col'>"+
-					"<img class='skill' src='icons/programingLanguages/"+languages[i][1][0]+"' alt='programming language logo'>" +
-					"<label><orange>'"+languages[i][0]+"'</orange> :</label>" +
+					"<img class='skill' src='"+skills[i].img+"' alt='"+skills[i].name+" logo'>" +
+					"<label><orange>'"+skills[i].name+"'</orange> :</label>" +
 				"</div>"+
 				"<div class='col'>"+
-					"<progress value='"+languages[i][1][1]/100+"'></progress>" +
-					"<label><green>"+languages[i][1][1]+"%</green>,</label>"+
+					"<progress value='"+skills[i].level/100+"'></progress>" +
+					"<label><green>"+skills[i].level+"%</green>,</label>"+
 				"</div>"+
 			"</div>"
 		;
 	}
+	document.getElementById("skillsDiv").innerHTML = html;
 }
+function setCertifications(certifications){
+	let html="";
+	for (let i=0; i<certifications.length; i++){
+		html +=
+			"<h2>"+certifications[i].institution+"<gray className='gray'> {</gray></h2>"+
+			"<div class='certificationsGroup'>"
+		;
+		let badges = certifications[i].badges;
+		for(let j=0; j<badges.length; j++){
+			html +=
+					"<div class='imgbox'>"+
+					"<a href='"+badges[j].url+"'>"+
+					"<img src='"+badges[j].img+"' class='certifications' alt='"+badges[j].name+" logo'>"+
+					"</a>"+
+					"<p><orange>'"+badges[j].name+"'</orange> : <green>"+badges[j].date+"</green></p>"+
+					"</div>"
+			;
+		}
+		html +=
+			"</div>"+
+			"<h2><gray>}</gray></h2>"
+		;
+	}
+	document.getElementById("certificationsDiv").innerHTML = html;
+}
+
 
 
