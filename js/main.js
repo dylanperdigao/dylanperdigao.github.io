@@ -3,13 +3,7 @@
 let lang = null;
 
 function main(){
-	loadJSON('lang/EN.json', function(json){lang=json;})
-	loadJSON('data.json', setData)
-	setAge();
-}
-
-function loadJSON(url,func){
-	fetch(url)
+	fetch('lang/EN.json')
 		.then(function(response) {
 			if (!response.ok) {
 				throw new Error("HTTP error, status = " + response.status);
@@ -17,10 +11,26 @@ function loadJSON(url,func){
 			return response.json();
 		})
 		.then(function(json){
-			func(json)
+			lang=json;
+			fetch('data.json')
+				.then(function(response) {
+					if (!response.ok) {
+						throw new Error("HTTP error, status = " + response.status);
+					}
+					return response.json();
+				})
+				.then(function(json){
+					setData(json)
+					setAge();
+				})
+				.catch(function(error) {
+					alert(error.message);
+					location.reload();
+				});
 		})
 		.catch(function(error) {
 			alert(error.message);
+			location.reload();
 		});
 }
 
