@@ -61,6 +61,23 @@ progress::-webkit-progress-value {
 progress::-webkit-progress-bar {
 	background: #252526;
 }
+/**
+
+HEADER
+
+**/
+div.lang{
+	margin:  5% 80% 0 5%;
+}
+div.lang a{
+	text-decoration: underline;
+	margin : 1%;
+	color: #CE9178;
+}
+div.lang a:hover{
+	cursor: pointer;
+	color: #4EC8AF;
+}
 /** 
 
 ABOUT 
@@ -138,6 +155,21 @@ SKILLS
 		height: 50px;
 		width: auto;
 	}
+}
+/**
+
+Formation
+
+**/
+@media (min-width: 801px) {
+	img.institution {
+		float: right;
+		height: 100px;
+		width: 100px;
+	}
+}
+div.institutionGroup{
+	margin: auto 10%;
 }
 /** 
 

@@ -1,0 +1,40 @@
+{
+    "section" : {
+        "about" : "Sobre",
+        "languages" : "Línguas",
+        "formation" : "Formação",
+        "skills" : "Competências",
+        "certifications" : "Certificações",
+        "projects" : "Projetos",
+        "contact" : "Contacto"
+    },
+    "profile" : [
+        "Olá, sou o Dylan Perdigão",
+        "Bemvind@ ao meu website pessoal"
+    ],
+    "about" : {
+        "PT" : "Português",
+        "CH" : "Suiço"
+    },
+    "languages" : {
+        "PT" : "Português",
+        "FR" : "Françês",
+        "EN" : "Inglês",
+        "DE" : "Alemão"
+    },
+    "formation" : {
+        "Maturity" : "Ensino Secundário (Maturité Gymnasiale)",
+        "Bachelor" : "Licenciatura em Engenharia Informática",
+        "Master" : "Mestrado em Engenharia Informática",
+        "now": "hoje"
+    },
+    "institutions" : {
+        "UC" : "Universidade de Coimbra",
+        "LDDR" : "Liceu Denis-de-Rougemont"
+    },
+    "contact" : {
+        "email": "E-mail",
+        "message": "Mensagem",
+        "send" : "Enviar"
+    }
+}

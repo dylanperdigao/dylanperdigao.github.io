@@ -1,0 +1,40 @@
+{
+    "section" : {
+        "about" : "About",
+        "languages" : "Languages",
+        "formation" : "Formation",
+        "skills" : "Skills",
+        "certifications" : "Certifications",
+        "projects" : "Projects",
+        "contact" : "Contact"
+    },
+    "profile" : [
+        "Hello I'm Dylan Perdigão",
+        "Welcome to my personal website"
+    ],
+    "about" : {
+        "PT" : "Portuguese",
+        "CH" : "Swiss"
+    },
+    "languages" : {
+        "PT" : "Portuguese",
+        "FR" : "French",
+        "EN" : "English",
+        "DE" : "German"
+    },
+    "formation" : {
+        "Maturity" : "Gymnasial Maturity",
+        "Bachelor" : "Bachelor's degree in Informatics Engineering",
+        "Master" : "Master's degree in Informatics Engineering",
+        "now": "today"
+    },
+    "institutions" : {
+        "UC" : "University of Coimbra",
+        "LDDR" : "Denis-de-Rougemont High School"
+    },
+    "contact" : {
+        "email": "E-mail",
+        "message": "Message",
+        "send" : "Send"
+    }
+}
