@@ -11,6 +11,12 @@
         font-size: 0.8em;
     }
 }
+@media (max-width: 800px) {
+    div.lang {
+        margin-left: auto;
+        width: 20%;
+    }
+}
 /**
 
 ABOUT

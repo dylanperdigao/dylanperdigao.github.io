@@ -82,9 +82,11 @@ header {
 div#sections{
 	width: 60%;
 }
-div.lang{
-	margin-left: auto;
-	width : 10%;
+@media (min-width: 801px) {
+	div.lang {
+		margin-left: auto;
+		width: 10%;
+	}
 }
 div.lang, div#sections{
 	background-color: #1E1E1E;
