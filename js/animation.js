@@ -18,3 +18,11 @@ function sectionAnimation() {
 	}
 
 }
+function secret1(){
+	let x = document.getElementById("audio1");
+	if(!x.paused){
+		x.pause();
+		return;
+	}
+	x.play()
+}

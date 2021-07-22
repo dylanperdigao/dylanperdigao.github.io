@@ -79,10 +79,14 @@ function setLanguages(lang,languages){
 				"<div id='languagesDiv'>"
 	;
 	for (let i=0; i<languages.length; i++){
+		let x = ""
+		if(languages[i].acronym==='PT'){
+			x ="onclick='secret1()'"
+		}
 		html +=
 			"<div class='skillLine'>"+
 			"<div class='col'>"+
-			"<img class='skill' src='"+languages[i].img+"' alt='"+lang.languages[languages[i].acronym]+" flag'>" +
+			"<img class='skill' src='"+languages[i].img+"'"+x+"alt='"+lang.languages[languages[i].acronym]+" flag'>" +
 			"<label><orange>'"+lang.languages[languages[i].acronym]+"'</orange> :</label>" +
 			"</div>"+
 			"<div class='col'>"+
