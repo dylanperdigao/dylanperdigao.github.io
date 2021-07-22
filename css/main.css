@@ -79,10 +79,10 @@ header {
 	width: 90%;
 	z-index: 10;
 }
-div#sections{
-	width: 60%;
-}
 @media (min-width: 801px) {
+	div#sections{
+		width: 60%;
+	}
 	div.lang {
 		margin-left: auto;
 		width: 10%;
