@@ -13,7 +13,7 @@
 }
 @media (max-width: 800px) {
     div#sections{
-        width: 70%;
+        width: 80%;
     }
     div.lang {
         margin-left: auto;
