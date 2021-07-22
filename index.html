@@ -29,9 +29,10 @@
 	<link rel="stylesheet" href="css/main.css">
 	<!--JavaScript-->
 	<script type="text/javascript" src="js/main.js"></script>
+	<script type="text/javascript" src="js/animation.js"></script>
 </head>
-<body onload="main('en');">
-<img src="icons/other/neural-network.png" id="neuralnetwork" width='1000px' alt="decoration">
+<body onload="main('en');sectionAnimation();">
+<img src="icons/other/neural-network.png" id="neuralnetwork" width='1280' alt="decoration">
 	<header>
 		<div id="sections">ERROR WHILE LOADING</div>
 		<div class="lang">
@@ -42,35 +43,50 @@
 		</div>
 	</header>
 	<!--ABOUT-->
-	<section id="about">
-		<div class="col" style="text-align:center;">
-			<div class="profile" id="profileDiv">ERROR WHILE LOADING</div>
-		</div>
-		<div class="col" id="aboutDiv">ERROR WHILE LOADING</div>
-	</section>
+	<div class="square-wrapper">
+		<section id="about" class="square square-transition">
+			<div class="col" style="text-align:center;">
+				<div class="profile" id="profileDiv">ERROR WHILE LOADING</div>
+			</div>
+			<div class="col" id="aboutDiv">ERROR WHILE LOADING</div>
+		</section>
+	</div>
 	<!--LANGUAGES-->
-	<section id="languages">
-		ERROR WHILE LOADING
-	</section>
+	<div class="square-wrapper">
+		<section id="languages" class="square square-transition">
+			ERROR WHILE LOADING
+		</section>
+	</div>
 	<!--SKILLS-->
-	<section id="formation">
+	<div class="square-wrapper">
+	<section id="formation" class="square square-transition">
 		ERROR WHILE LOADING
 	</section>
+	</div>
 	<!--SKILLS-->
-	<section id="skills">
-		ERROR WHILE LOADING
-	</section>
-	<section id="certifications">
-		ERROR WHILE LOADING
-	</section>
+	<div class="square-wrapper">
+		<section id="skills" class="square square-transition">
+			ERROR WHILE LOADING
+		</section>
+	</div>
+	<!--Certifications-->
+	<div class="square-wrapper">
+		<section id="certifications" class="square square-transition">
+			ERROR WHILE LOADING
+		</section>
+	</div>
 	<!--Projects-->
-	<section id="projects">
-		ERROR WHILE LOADING
-	</section>
+	<div class="square-wrapper">
+		<section id="projects" class="square square-transition">
+			ERROR WHILE LOADING
+		</section>
+	</div>
 	<!--Contact-->
-	<section id="contact">
-		ERROR WHILE LOADING
-	</section>
+	<div class="square-wrapper">
+		<section id="contact" class="square square-transition">
+			ERROR WHILE LOADING
+		</section>
+	</div>
 	<!--FOOTER-->
 	<footer id='footer'>
 		<a href="https://www.linkedin.com/in/dylanperdigao"><img src="icons/social/linkedin-orange.png" id="linkedin" class='footer' alt="linkedin logo"></a>
