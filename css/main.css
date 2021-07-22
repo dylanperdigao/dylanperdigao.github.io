@@ -88,21 +88,32 @@ header {
 		width: 10%;
 	}
 }
-div.lang, div#sections{
-	background-color: #1E1E1E;
-	padding: 1%;
+div.lang{
+ 	text-align: right;
+}
+
+div#sections a{
+	padding: 0.5%;
+	margin : 1%;
+	line-height: 2;
 	border-radius: 10px;
-	text-align: center;
+	color : #252526;
+	background-color : #CE9178;
+	text-decoration: none;
 }
-div.lang a, div#sections a{
-	text-decoration: underline;
-	margin : 2%;
-	color: #CE9178;
+div.lang a{
+	padding: 2%;
+	margin : 1%;
+	line-height: 2;
+	border-radius: 100%;
+	color : #252526;
+	background-color : #CE9178;
 }
-div.lang a:hover, div#sections a:hover{
+div#sections a:hover, div.lang a:hover{
 	cursor: pointer;
-	color: #4EC8AF;
+	background-color: #4EC8AF;
 }
+
 /** 
 
 ABOUT 
@@ -227,7 +238,18 @@ PROJECTS
 div.projectInfo {
 	margin: auto 10%;
 }
-
+a.try{
+	padding: 0.5% 10%;
+	margin : 1%;
+	border-radius: 10px;
+	color : #252526;
+	background-color: #4EC8AF;
+	text-decoration: none;
+}
+a.try:hover{
+	cursor: pointer;
+	background-color : #CE9178;
+}
 /** 
 
 CONTACT 

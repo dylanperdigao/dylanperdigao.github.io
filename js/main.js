@@ -196,7 +196,7 @@ function setProjects(lang,projects){
 		if(projects[i].description && projects[i].language){
 			let page="";
 			if(projects[i].has_pages){
-				page="<p><orange>'Try'</orange> : <green><a href='"+projects[i].homepage+"'>here</a> 🔗</green>,</p>";
+				page="<p><orange>'Try'</orange> : <a class='try' href='"+projects[i].homepage+"'>here</a>,</p>";
 			}else{
 				console.log("Not displayed: " +projects[i]);
 			}
