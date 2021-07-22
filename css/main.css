@@ -19,6 +19,7 @@ section{
 
 h1{
 	color: #C586C0;
+	word-wrap: break-word;
 }
 
 h2{

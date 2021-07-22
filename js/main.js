@@ -174,11 +174,13 @@ function setCertifications(lang,certifications){
 		}
 		html +=
 			"</div>"+
-			"<h2><gray>}</gray></h2>"+
-			"</div>"+
-			"<h1><gray>}</gray></h1>"
+			"<h2><gray>}</gray></h2>"
 		;
 	}
+	html +=
+		"</div>"+
+		"<h1><gray>}</gray></h1>"
+	;
 	document.getElementById("certifications").innerHTML = html;
 }
 function setProjects(lang,projects){
