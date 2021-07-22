@@ -8,11 +8,13 @@ html,body{
 }
 
 section{
+	position:relative;
 	margin: 10% auto;
 	padding: 5%;
 	width: 80%;
 	background-color: #1E1E1E;
 	border-radius: 10px;
+	z-index: 10;
 }
 
 h1{
@@ -27,7 +29,6 @@ p{
 	color: #B9B9B9;
 }
 a{
-	text-decoration: none;
 	color: inherit;
 }
 orange{
@@ -66,15 +67,37 @@ progress::-webkit-progress-bar {
 HEADER
 
 **/
-div.lang{
-	margin:  5% 80% 0 5%;
+img#neuralnetwork{
+	position: absolute;
+	width:100%;
+	z-index: 1;
 }
-div.lang a{
+header {
+	position: relative;
+	display: inline-flex;
+	margin:  5% 5% 0;
+	width: 90%;
+	z-index: 10;
+}
+div#sections{
+	width: 60%;
+}
+div.lang{
+	margin-left: auto;
+	width : 10%;
+}
+div.lang, div#sections{
+	background-color: #1E1E1E;
+	padding: 1%;
+	border-radius: 10px;
+	text-align: center;
+}
+div.lang a, div#sections a{
 	text-decoration: underline;
-	margin : 1%;
+	margin : 2%;
 	color: #CE9178;
 }
-div.lang a:hover{
+div.lang a:hover, div#sections a:hover{
 	cursor: pointer;
 	color: #4EC8AF;
 }
@@ -254,4 +277,11 @@ img.footer{
 	margin: auto 1%;
 	height : 20px;
 	width : 20px;
+}
+
+#github:hover{
+	content: url('../icons/social/github-green.png');
+}
+#linkedin:hover{
+	content: url('../icons/social/linkedin-green.png');
 }

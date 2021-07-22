@@ -11,6 +11,7 @@ function main(l){
 
 }
 function setData(lang,data,projects){
+	setSections(lang);
 	setProfile(lang,data.profile)
 	setAbout(lang,data.about)
 	setLanguages(lang,data.languages);
@@ -47,6 +48,13 @@ function getAge(birth){
 		}
 	}
 	return age;
+}
+function setSections(lang){
+	let html = "";
+	for(let s in lang.section){
+		html+= "<a href='#"+s+"'>"+lang.section[s]+" </a>"
+	}
+	document.getElementById("sections").innerHTML = html;
 }
 function setProfile(lang,data){
 	document.getElementById("profileDiv").innerHTML =
@@ -186,7 +194,7 @@ function setProjects(lang,projects){
 		if(projects[i].description && projects[i].language){
 			let page="";
 			if(projects[i].has_pages){
-				page="<p><orange>'Try'</orange> : <green><a href='"+projects[i].homepage+"' style='text-decoration: underline'>here</a> 🔗</green>,</p>";
+				page="<p><orange>'Try'</orange> : <green><a href='"+projects[i].homepage+"'>here</a> 🔗</green>,</p>";
 			}else{
 				console.log("Not displayed: " +projects[i]);
 			}
