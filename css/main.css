@@ -31,6 +31,9 @@ p{
 a{
 	color: inherit;
 }
+a:hover{
+	cursor : pointer;
+}
 orange{
 	color: #CE9178;
 }
@@ -67,25 +70,40 @@ progress::-webkit-progress-bar {
 HEADER
 
 **/
+#en-flag:hover{
+	content: url('../icons/languages/en-flag-green.png');
+}
+#pt-flag:hover{
+	content: url('../icons/languages/pt-flag-green.png');
+}
+#fr-flag:hover{
+	content: url('../icons/languages/fr-flag-green.png');
+}
+#de-flag:hover{
+	content: url('../icons/languages/de-flag-green.png');
+}
 img#neuralnetwork{
 	position: absolute;
 	width:100%;
 	z-index: 1;
 }
 header {
-	position: relative;
+	position: fixed;
 	display: inline-flex;
-	margin:  5% 5% 0;
+	padding:  1% 5% 0;
 	width: 90%;
-	z-index: 10;
+	z-index: 100;
+	background-color: #1E1E1E;
+	box-shadow: #4EC8AF 1px 1px 0 0;
 }
 @media (min-width: 801px) {
 	div#sections{
-		width: 60%;
+		width: 80%;
+		vertical-align: middle;
 	}
 	div.lang {
 		margin-left: auto;
-		width: 10%;
+		width: 20%;
 	}
 }
 div.lang{
@@ -93,26 +111,23 @@ div.lang{
 }
 
 div#sections a{
-	padding: 0.5%;
-	margin : 1%;
+	margin: auto 2%;
 	line-height: 2;
-	border-radius: 10px;
-	color : #252526;
-	background-color : #CE9178;
+	color : #CE9178;
 	text-decoration: none;
+}
+div#sections a:hover{
+	color: #4EC8AF;
 }
 div.lang a{
 	padding: 2%;
 	margin : 1%;
-	line-height: 2;
-	border-radius: 100%;
-	color : #252526;
-	background-color : #CE9178;
 }
-div#sections a:hover, div.lang a:hover{
-	cursor: pointer;
-	background-color: #4EC8AF;
+div.lang a img{
+	width: 1.5em;
+	height: auto;
 }
+
 
 /** 
 
@@ -169,7 +184,9 @@ SKILLS
 	#skills.languages {
 		display: block;
 	}
-
+	#skillGroup{
+		padding-left: 5%;
+	}
 	div.skillLine {
 		display: inline-block;
 		text-align: left;
@@ -243,12 +260,11 @@ a.try{
 	margin : 1%;
 	border-radius: 10px;
 	color : #252526;
-	background-color: #4EC8AF;
+	background-color : #CE9178;
 	text-decoration: none;
 }
 a.try:hover{
-	cursor: pointer;
-	background-color : #CE9178;
+	background-color: #4EC8AF;
 }
 /** 
 
@@ -302,7 +318,6 @@ img.footer{
 	height : 20px;
 	width : 20px;
 }
-
 #github:hover{
 	content: url('../icons/social/github-green.png');
 }

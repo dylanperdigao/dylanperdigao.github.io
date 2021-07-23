@@ -1,40 +1,32 @@
 {
-    "section" : {
-        "about" : "Über",
-        "languages" : "Sprachen",
-        "formation" : "Ausbildung",
-        "skills" : "Kompetenzen",
-        "certifications" : "Zertifizierungen",
-        "projects" : "Projekte",
-        "contact" : "Kontakt"
-    },
     "profile" : [
         "Hallo ich bin Dylan Perdigão",
         "Willkommen zu meinem persönlichen Website"
     ],
-    "about" : {
-        "PT" : "Portugiesisch",
-        "CH" : "Schweizerisch"
-    },
-    "languages" : {
-        "PT" : "Portugiesich",
-        "FR" : "Französisch",
-        "EN" : "Englisch",
-        "DE" : "Deutsch"
-    },
-    "formation" : {
-        "Maturity" : "Matura",
-        "Bachelor" : "Bachelor in Informatik",
-        "Master" : "Master in Informatik",
-        "now": "heute"
-    },
-    "institutions" : {
-        "UC" : "Universität von Coimbra",
-        "LDDR" : "Denis-de-Rougemont Gymnasium"
-    },
-    "contact" : {
-        "email": "E-mail",
-        "message": "Nachricht",
-        "send" : "Senden"
-    }
+    "about" : "Über",
+    "languages" : "Sprachen",
+    "formation" : "Ausbildung",
+    "skills" : "Kompetenzen",
+    "certifications" : "Zertifizierungen",
+    "projects" : "Projekte",
+    "contact" : "Kontakt",
+    "CH" : "Schweizerisch",
+    "PT" : "Portugiesich",
+    "FR" : "Französisch",
+    "EN" : "Englisch",
+    "DE" : "Deutsch",
+    "Maturity" : "Matura",
+    "Bachelor" : "Bachelor in Informatik",
+    "Master" : "Master in Informatik",
+    "now": "heute",
+    "UC" : "Universität von Coimbra",
+    "LDDR" : "Denis-de-Rougemont Gymnasium",
+    "email": "E-mail",
+    "message": "Nachricht",
+    "send" : "Senden",
+    "backend" : "Back-End",
+    "frontend" : "Front-End",
+    "database" : "Datenbanken",
+    "dataanalysis" : "Datenanalyse",
+    "others": "Andere"
 }

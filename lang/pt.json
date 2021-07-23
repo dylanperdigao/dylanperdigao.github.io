@@ -1,40 +1,32 @@
 {
-    "section" : {
-        "about" : "Sobre",
-        "languages" : "Línguas",
-        "formation" : "Formação",
-        "skills" : "Competências",
-        "certifications" : "Certificações",
-        "projects" : "Projetos",
-        "contact" : "Contacto"
-    },
     "profile" : [
         "Olá, sou o Dylan Perdigão",
         "Bemvind@ ao meu website pessoal"
     ],
-    "about" : {
-        "PT" : "Português",
-        "CH" : "Suiço"
-    },
-    "languages" : {
-        "PT" : "Português",
-        "FR" : "Françês",
-        "EN" : "Inglês",
-        "DE" : "Alemão"
-    },
-    "formation" : {
-        "Maturity" : "Ensino Secundário (Maturité Gymnasiale)",
-        "Bachelor" : "Licenciatura em Engenharia Informática",
-        "Master" : "Mestrado em Engenharia Informática",
-        "now": "hoje"
-    },
-    "institutions" : {
-        "UC" : "Universidade de Coimbra",
-        "LDDR" : "Liceu Denis-de-Rougemont"
-    },
-    "contact" : {
-        "email": "E-mail",
-        "message": "Mensagem",
-        "send" : "Enviar"
-    }
+    "about" : "Sobre",
+    "languages" : "Línguas",
+    "formation" : "Formação",
+    "skills" : "Competências",
+    "certifications" : "Certificações",
+    "projects" : "Projetos",
+    "contact" : "Contacto",
+    "PT" : "Português",
+    "CH" : "Suiço",
+    "FR" : "Françês",
+    "EN" : "Inglês",
+    "DE" : "Alemão",
+    "Maturity" : "Ensino Secundário (Maturité Gymnasiale)",
+    "Bachelor" : "Licenciatura em Engenharia Informática",
+    "Master" : "Mestrado em Engenharia Informática",
+    "now": "hoje",
+    "UC" : "Universidade de Coimbra",
+    "LDDR" : "Liceu Denis-de-Rougemont",
+    "email": "E-mail",
+    "message": "Mensagem",
+    "send" : "Enviar",
+    "backend" : "Back-End",
+    "frontend" : "Front-End",
+    "database" : "Bases de Dados",
+    "dataanalysis" : "Análise de Dados",
+    "others": "Outros"
 }

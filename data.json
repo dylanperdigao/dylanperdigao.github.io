@@ -2,6 +2,15 @@
   "profile" : {
     "url" : "https://scontent.fopo3-1.fna.fbcdn.net/v/t1.6435-9/89254878_2496307997141483_6751967714941599744_n.jpg?_nc_cat=101&_nc_rgb565=1&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=bFnPHqC7jdUAX-D5ejW&_nc_ht=scontent.fopo3-1.fna&oh=8aad4f131cff9847a6a925ae68b3e3a3&oe=60FB8E08"
   },
+  "sections": [
+    "about",
+    "languages",
+    "formation",
+    "skills",
+    "certifications",
+    "projects",
+    "contact"
+  ],
   "about" : {
     "birth" : "10/06/1999",
     "nationality" : ["PT","CH"],
@@ -62,64 +71,104 @@
   ],
   "skills": [
     {
-      "name": "C",
-      "level": 85,
-      "img": "icons/programmingLanguages/c.png"
+      "category" : "backend",
+      "list" : [
+        {
+        "name": "C",
+        "level": 85,
+        "img": "icons/programmingLanguages/c.png"
+        },
+        {
+          "name": "C++",
+          "level": 70,
+          "img": "icons/programmingLanguages/cpp.png"
+        },
+        {
+          "name": "Java",
+          "level": 90,
+          "img": "icons/programmingLanguages/java.png"
+        },
+        {
+          "name": "PHP",
+          "level": 60,
+          "img": "icons/programmingLanguages/php.png"
+        },
+        {
+          "name": "Python",
+          "level": 90,
+          "img": "icons/programmingLanguages/python.png"
+        }
+      ]
     },
     {
-      "name": "C++",
-      "level": 70,
-      "img": "icons/programmingLanguages/cpp.png"
+      "category": "frontend",
+      "list": [
+        {
+          "name": "CSS",
+          "level": 90,
+          "img": "icons/programmingLanguages/css.png"
+        },
+        {
+          "name": "HTML",
+          "level": 90,
+          "img": "icons/programmingLanguages/html.png"
+        },
+        {
+          "name": "JavaScript",
+          "level": 90,
+          "img": "icons/programmingLanguages/javascript.png"
+        }
+      ]
     },
     {
-      "name": "C#",
-      "level": 50,
-      "img": "icons/programmingLanguages/csharp.png"
+      "category": "database",
+      "list": [
+        {
+          "name": "PostgreSQL",
+          "level": 70,
+          "img": "icons/programmingLanguages/postgresql.png"
+        },
+        {
+          "name": "SQLite",
+          "level": 60,
+          "img": "icons/programmingLanguages/sqlite.png"
+        }
+      ]
     },
     {
-      "name": "CSS",
-      "level": 90,
-      "img": "icons/programmingLanguages/css.png"
+      "category": "dataanalysis",
+      "list": [
+        {
+          "name": "MatLAB",
+          "level": 60,
+          "img": "icons/programmingLanguages/matlab.png"
+        },
+        {
+          "name": "R",
+          "level": 10,
+          "img": "icons/programmingLanguages/r.png"
+        }
+      ]
     },
     {
-      "name": "HTML",
-      "level": 90,
-      "img": "icons/programmingLanguages/html.png"
-    },
-    {
-      "name": "Java",
-      "level": 90,
-      "img": "icons/programmingLanguages/java.png"
-    },
-    {
-      "name": "JavaScript",
-      "level": 90,
-      "img": "icons/programmingLanguages/javascript.png"
-    },
-    {
-      "name": "PHP",
-      "level": 60,
-      "img": "icons/programmingLanguages/php.png"
-    },
-    {
-      "name": "PostgreSQL",
-      "level": 70,
-      "img": "icons/programmingLanguages/postgresql.png"
-    },
-    {
-      "name": "Python",
-      "level": 90,
-      "img": "icons/programmingLanguages/python.png"
-    },
-    {
-      "name": "MatLAB",
-      "level": 60,
-      "img": "icons/programmingLanguages/matlab.png"
-    },
-    {
-      "name": "R",
-      "level": 10,
-      "img": "icons/programmingLanguages/r.png"
+      "category": "others",
+      "list": [
+        {
+          "name": "C#",
+          "level": 50,
+          "img": "icons/programmingLanguages/csharp.png"
+        },
+        {
+          "name": "Swift",
+          "level": 20,
+          "img": "icons/programmingLanguages/swift.png"
+        },
+        {
+          "name": "Outsystems",
+          "level": 30,
+          "img": "icons/programmingLanguages/outsystems.png"
+        }
+      ]
     }
   ],
   "certifications": [
