@@ -176,6 +176,12 @@
       "institution": "Microsoft",
       "badges": [
         {
+          "name": "Azure Data Fundamentals",
+          "date": "08/2021",
+          "img": "icons/badges/Microsoft-Azure_Data_Fundamentals.png",
+          "url": "https://www.credly.com/badges/fb660ec1-41d1-4c0f-a7e5-8d44d3f91f07/public_url"
+        },
+        {
           "name": "Azure AI Fundamentals",
           "date": "05/2021",
           "img": "icons/badges/Microsoft-Azure_AI_Fundamentals.png",
