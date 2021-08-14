@@ -190,6 +190,17 @@
       ]
     },
     {
+      "institution": "IMB",
+      "badges": [
+        {
+          "name": "Deep Learning Essentials with Keras",
+          "date": "08/2021",
+          "img": "icons/badges/IBM-Deep_Learning_Essentials_with_Keras.png",
+          "url": "https://www.credly.com/badges/2d534ac6-cddb-400d-977b-68e6f1227381/public_url"
+        }
+      ]
+    },
+    {
       "institution": "Cisco",
       "badges": [
         {
