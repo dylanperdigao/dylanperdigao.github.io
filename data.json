@@ -193,6 +193,12 @@
       "institution": "IBM",
       "badges": [
         {
+          "name": "Machine Learning with Python",
+          "date": "08/2021",
+          "img": "icons/badges/IBM-Machine_Learning_with_Python.png",
+          "url": "https://www.credly.com/badges/63b94488-69c9-4971-9a37-7e94d961b93f/public_url"
+        },
+        {
           "name": "Deep Learning Essentials with Keras",
           "date": "08/2021",
           "img": "icons/badges/IBM-Deep_Learning_Essentials_with_Keras.png",
