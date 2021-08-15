@@ -18,17 +18,7 @@ function sectionAnimation() {
 	}
 
 }
-function getLocalStream() {
-    navigator.mediaDevices.getUserMedia({video: false, audio: true}).then( stream => {
-        window.localStream = stream;
-        window.localAudio.srcObject = stream;
-        window.localAudio.autoplay = true;
-    }).catch( err => {
-        console.log("u got an error:" + err)
-    });
-}
 function secret1(){
-	getLocalStream();
 	let x = document.getElementById("audio1");
 	if(!x.paused){
 		x.pause();
