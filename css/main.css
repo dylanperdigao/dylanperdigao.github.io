@@ -236,11 +236,12 @@ Certifications
 	}
 
 	.certificationsGroup {
-		display: flex;
+		display: block;
 		margin-left: 10%;
 	}
 
 	.imgbox {
+		display:inline-block;
 		margin: auto;
 		text-align: center;
 		vertical-align: middle;
