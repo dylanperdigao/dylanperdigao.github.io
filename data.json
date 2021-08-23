@@ -46,8 +46,8 @@
       "qualifications": [
         {
           "name": "Master",
-          "begin_date": "soon",
-          "end_date": "soon"
+          "begin_date": "2021",
+          "end_date": "now"
         },
         {
           "name": "Bachelor",
@@ -176,6 +176,12 @@
       "institution": "Microsoft",
       "badges": [
         {
+          "name": "Azure Fundamentals",
+          "date": "08/2021",
+          "img": "https://images.credly.com/size/220x220/images/6a254dad-77e5-4e71-8049-94e5c7a15981/azure-fundamentals-600x600.png",
+          "url": "https://www.credly.com/badges/0593a974-acfa-4f9c-b25a-fba6b24be35c/public_url"
+        },
+        {
           "name": "Azure Data Fundamentals",
           "date": "08/2021",
           "img": "https://images.credly.com/size/680x680/images/70eb1e3f-d4de-4377-a062-b20fb29594ea/azure-data-fundamentals-600x600.png",
@@ -205,6 +211,12 @@
           "url": "https://www.credly.com/badges/2d534ac6-cddb-400d-977b-68e6f1227381/public_url"
         },
         {
+          "name": "Computer Vision Practitioner",
+          "date": "08/2021",
+          "img": "https://images.credly.com/size/680x680/images/bc9c32a4-9b6d-45b0-a8c4-e7e92e418f0a/IBM_AI_-_Computer_Vision_Practitioner.png",
+          "url": "https://www.credly.com/badges/09f0fb26-d2b5-47eb-abec-1cffdf156ac8/public_url"
+        },
+        {
           "name": "Deep Neural Networks with PyTorch",
           "date": "08/2021",
           "img": "https://images.credly.com/size/680x680/images/6be9e507-9096-4e18-aef8-e60893ed36c6/IBM_AI_-Deep_Neural_Networks_with_PyTorch.png",
@@ -215,7 +227,14 @@
           "date": "08/2021",
           "img": "https://images.credly.com/size/680x680/images/4e2d2e18-e3ea-408d-b815-819bc58b1143/IBM_AI_-Deep_Learning_with_Tensorflow.png",
           "url": "https://www.credly.com/badges/1fe37f9e-c064-43b0-b198-7c1e0514c1c2/public_url"
+        },
+        {
+          "name": "IBM AI Engineering Professional Certificate",
+          "date": "08/2021",
+          "img": "https://images.credly.com/size/680x680/images/5d33407f-063c-41e1-ab97-79603bd33095/Professional_Certificate_-_AI_Engineering.png",
+          "url": "https://www.credly.com/badges/6b8a4548-e7a4-43e3-b595-f771c6f71a70/public_url"
         }
+        
       ]
     },
     {
