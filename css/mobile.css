@@ -62,9 +62,12 @@ ABOUT
     section#about div.col div.profile {
         font-size: 1.5em;
     }
+    .col_interests{
+        font-size: 0.8em;
+    }
     .about_icon{
         margin: 1%;
-        width: 5%;
+        width: 4%;
     }
 }
 /**

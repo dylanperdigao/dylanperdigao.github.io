@@ -84,12 +84,12 @@ function setAbout(lang,data){
 			"<p><img src='icons/interests/pin-orange.png' class='about_icon' alt='pin icon'> : <green>"+data.city+"</green></p>"+
 			"<h2>"+lang.interests+"<gray> {</gray></h2>"+
 			"<div class='interests'>"+
-				"<div class='col_interests'><img src='icons/interests/soccer-orange.png' class='interests_icon' alt='soccer icon'>: <green>"+lang.soccer+"</green>, </div>"+
-				"<div class='col_interests'><img src='icons/interests/ski-orange.png' class='interests_icon' alt='ski icon'>: <green>"+lang.ski+"</green>, </div>" +
-				"<div class='col_interests'><img src='icons/interests/bicycle-orange.png' class='interests_icon' alt='bike icon'>: <green>"+lang.bike+"</green>, </div>"+
-				"<div class='col_interests'><img src='icons/interests/atom-orange.png' class='interests_icon' alt='science icon'>: <green>"+lang.science+"</green>, </div>" +
-				"<div class='col_interests'><img src='icons/interests/programing-orange.png' class='interests_icon' alt='programing icon'>: <green>"+lang.programing+"</green>, </div>"+
-				"<div class='col_interests'><img src='icons/interests/shuttle-orange.png' class='interests_icon' alt='shuttle icon'>: <green>"+lang.space+"</green></div>" +
+				"<div class='col_interests'><img src='icons/interests/soccer-orange.png' class='interests_icon' alt='soccer icon'> : <green>"+lang.soccer+"</green>, </div>"+
+				"<div class='col_interests'><img src='icons/interests/ski-orange.png' class='interests_icon' alt='ski icon'> : <green>"+lang.ski+"</green>, </div>" +
+				"<div class='col_interests'><img src='icons/interests/bicycle-orange.png' class='interests_icon' alt='bike icon'> : <green>"+lang.bike+"</green>, </div>"+
+				"<div class='col_interests'><img src='icons/interests/atom-orange.png' class='interests_icon' alt='science icon'> : <green>"+lang.science+"</green>, </div>" +
+				"<div class='col_interests'><img src='icons/interests/programing-orange.png' class='interests_icon' alt='programing icon'> : <green>"+lang.programing+"</green>, </div>"+
+				"<div class='col_interests'><img src='icons/interests/shuttle-orange.png' class='interests_icon' alt='shuttle icon'> : <green>"+lang.space+"</green></div>" +
 			"</div><h2><gray>}</gray></h2>"+
 		"</div>"+
 		"<h1><gray>}</gray></h1>"
