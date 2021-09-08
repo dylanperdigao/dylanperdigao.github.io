@@ -79,7 +79,7 @@
     width: 35px;
     height: 5px;
     background-color: #CE9178;
-    margin-top: 7px;
+    margin: 6px 0;
     transition: 0.4s;
 }
 /* Rotate first bar */

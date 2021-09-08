@@ -28,5 +28,12 @@
     "frontend" : "Front-End",
     "database" : "Databases",
     "dataanalysis" : "Data Analysis",
-    "others": "Others"
+    "others": "Others",
+    "interests":"Interests",
+    "soccer": "Football",
+    "ski": "Skiing",
+    "bike": "Cycling",
+    "science": "Science",
+    "programing": "Programing",
+    "space": "Space Exploration"
 }

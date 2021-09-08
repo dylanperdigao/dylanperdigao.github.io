@@ -66,18 +66,31 @@ function setSections(lang,sections){
 }
 function setProfile(lang,data){
 	document.getElementById("profileDiv").innerHTML =
-		"<img src='"+data.url+"'>"+
+		"<img id='profilepic' src='"+data.url+"' alt='profile picture'>"+
 		"<p>"+lang.profile[0]+"</p>"+
-		"<p>"+lang.profile[1]+"</p>"
+		"<p>"+lang.profile[1]+"</p>"+
+		"<div class='social'>" +
+			"<a href='https://www.linkedin.com/in/dylanperdigao'><img src='icons/social/linkedin-orange.png' id='linkedin' class='social_profile' alt='linkedin logo'></a>" +
+			"<a href='https://www.github.com/DylanPerdigao'><img src='icons/social/github-orange.png' id='github' class='social_profile' alt='github logo'></a>" +
+		"</div>"
 	;
 }
 function setAbout(lang,data){
 	document.getElementById("aboutDiv").innerHTML =
 		"<h1>"+lang.about+" <gray>{</gray></h1>"+
 		"<div class='about'>"+
-		"<p>🎂 : <green>"+data.birth+"</green> (<green>"+getAge(data.birth)+"</green>),</p>"+
-		"<p>🌍 : <green>"+lang[data.nationality[0]]+"</green> & <green>"+lang[data.nationality[1]]+"</green>,</p>"+
-		"<p>📍 : <green>"+data.city+"</green></p>"+
+			"<p><img src='icons/interests/cake-orange.png' class='about_icon' alt='cake icon'> : <green>"+data.birth+"</green> (<green>"+getAge(data.birth)+"</green>),</p>"+
+			"<p><img src='icons/interests/earth-orange.png' class='about_icon' alt='earth icon'> : <green>"+lang[data.nationality[0]]+"</green> & <green>"+lang[data.nationality[1]]+"</green>,</p>"+
+			"<p><img src='icons/interests/pin-orange.png' class='about_icon' alt='pin icon'> : <green>"+data.city+"</green></p>"+
+			"<h2>"+lang.interests+"<gray> {</gray></h2>"+
+			"<div class='interests'>"+
+				"<div class='col_interests'><img src='icons/interests/soccer-orange.png' class='interests_icon' alt='soccer icon'>: <green>"+lang.soccer+"</green>, </div>"+
+				"<div class='col_interests'><img src='icons/interests/ski-orange.png' class='interests_icon' alt='ski icon'>: <green>"+lang.ski+"</green>, </div>" +
+				"<div class='col_interests'><img src='icons/interests/bicycle-orange.png' class='interests_icon' alt='bike icon'>: <green>"+lang.bike+"</green>, </div>"+
+				"<div class='col_interests'><img src='icons/interests/atom-orange.png' class='interests_icon' alt='science icon'>: <green>"+lang.science+"</green>, </div>" +
+				"<div class='col_interests'><img src='icons/interests/programing-orange.png' class='interests_icon' alt='programing icon'>: <green>"+lang.programing+"</green>, </div>"+
+				"<div class='col_interests'><img src='icons/interests/shuttle-orange.png' class='interests_icon' alt='shuttle icon'>: <green>"+lang.space+"</green></div>" +
+			"</div><h2><gray>}</gray></h2>"+
 		"</div>"+
 		"<h1><gray>}</gray></h1>"
 	;

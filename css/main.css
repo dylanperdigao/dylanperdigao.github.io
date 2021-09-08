@@ -122,6 +122,41 @@ div.lang{
 ABOUT 
 
 **/
+#profileDiv .social{
+	display: inline-flex;
+	margin: 5% 40%;
+	width: 20%;
+}
+#profileDiv .social a{
+	margin: auto
+}
+img.social_profile{
+	padding: 2%;
+	margin: auto 10%;
+	height : 20px;
+	width : 20px;
+}
+
+div.about{
+	margin: 10% 0 10% 10%;
+}
+div#aboutDiv.col{
+	padding-right: 0;
+}
+
+.interests{
+	display: inline-block;
+	margin-left: 10%;
+}
+.col_interests{
+	display: inline-block;
+	vertical-align: center;
+	width: 46%;
+	margin: 1%;
+}
+.interests_icon{
+	width: 10%;
+}
 @media (min-width: 801px){
 	section#about{
 		display: block;
@@ -145,16 +180,16 @@ ABOUT
 
 	}
 
-	section#about div.col img{
+	#profilepic{
 		width: 60%;
 		border-radius: 100%;
 	}
 	section#about div.col div.profile{
 		font-size: 1.5em;
 	}
-
-	div.about{
-		margin: 10%;
+	.about_icon{
+		margin: 1%;
+		width: 7%;
 	}
 }
 /** 
