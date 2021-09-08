@@ -25,6 +25,7 @@
 	<link rel="shortcut icon" type="image/png" href="/icons/other/icon64x64.png" sizes="64x64"/>
 	<link rel="shortcut icon" type="image/png" href="/icons/other/icon128x128.png" sizes="128x128"/>
 	<!--CSS-->
+	<link rel="stylesheet" href="css/dropdown.css">
 	<link rel="stylesheet" href="css/mobile.css">
 	<link rel="stylesheet" href="css/main.css">
 	<!--JavaScript-->
@@ -34,15 +35,25 @@
 <body onload="main('en');sectionAnimation();">
 <img src="icons/other/neural-network.png" id="neuralnetwork" width='1280' alt="decoration">
 	<header>
-		<div id="sections">ERROR WHILE LOADING</div>
-		<div class="lang">
-			<div>
-				<a onclick="main('en')"><img src="icons/languages/en-flag-orange.png" id="en-flag" width="512" alt="EN"></a>
-				<a onclick="main('pt')"><img src="icons/languages/pt-flag-orange.png" id="pt-flag" width="512" alt="PT"></a>
+		<div class="menu">
+			<div class="dropdown" id="menudropdown">
+				<div class="dropbtn">
+					<div class="bar1"></div>
+					<div class="bar2"></div>
+					<div class="bar3"></div>
+				</div>
+				<div class="dropdown-content" id="sections"></div>
 			</div>
-			<div>
-				<a onclick="main('fr')"><img src="icons/languages/fr-flag-orange.png" id="fr-flag" width="512" alt="FR"></a>
-				<a onclick="main('de')"><img src="icons/languages/de-flag-orange.png" id="de-flag" width="512" alt="DE"></a>
+		</div>
+		<div class="lang">
+			<div class="dropdown" id="langdropdown">
+				<button class="dropbtn"><img src="icons/languages/en-flag-orange.png" id="current-flag" width="512" alt="EN"></button>
+				<div class="dropdown-content" id="drop-flags">
+					<a onclick="main('en')"><img src="icons/languages/en-flag-orange.png" id="en-flag" width="512" alt="EN"></a>
+					<a onclick="main('pt')"><img src="icons/languages/pt-flag-orange.png" id="pt-flag" width="512" alt="PT"></a>
+					<a onclick="main('fr')"><img src="icons/languages/fr-flag-orange.png" id="fr-flag" width="512" alt="FR"></a>
+					<a onclick="main('de')"><img src="icons/languages/de-flag-orange.png" id="de-flag" width="512" alt="DE"></a>
+				</div>
 			</div>
 		</div>
 	</header>

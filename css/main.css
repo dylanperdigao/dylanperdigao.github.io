@@ -90,8 +90,8 @@ img#neuralnetwork{
 header {
 	position: fixed;
 	display: inline-flex;
-	padding:  1% 5% 0;
-	width: 90%;
+	padding:  1% 1% 0;
+	width: 98%;
 	z-index: 100;
 	background-color: #1E1E1E;
 	box-shadow: #4EC8AF 0 1px 0 0;
@@ -114,19 +114,7 @@ div.lang{
  	text-align: right;
 }
 
-div#sections a{
-	margin: auto 2%;
-	line-height: 2;
-	color : #CE9178;
-	text-decoration: none;
-}
-div#sections a:hover{
-	color: #4EC8AF;
-}
-div.lang a{
-	padding: 2%;
-	margin : 1%;
-}
+
 
 
 /** 

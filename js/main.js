@@ -1,6 +1,14 @@
 "use strict";
 
 function main(l){
+	document.getElementById("current-flag").src = "icons/languages/"+l+"-flag-orange.png"
+	let html =""
+		html+="<a onClick='main(\"en\")'><img src='icons/languages/en-flag-orange.png' id='en-flag' width='512' alt='EN'></a>"
+		html+="<a onClick='main(\"pt\")'><img src='icons/languages/pt-flag-orange.png' id='pt-flag' width='512' alt='PT'></a>"
+		html+="<a onClick='main(\"fr\")'><img src='icons/languages/fr-flag-orange.png' id='fr-flag' width='512' alt='FR'></a>"
+		html+="<a onClick='main(\"de\")'><img src='icons/languages/de-flag-orange.png' id='de-flag' width='512' alt='DE'></a>"
+	document.getElementById("drop-flags").innerHTML = html
+	document.getElementById(l+"-flag").parentElement.remove()
 	fetch('lang/'+l+'.json')
 		.then(p1 => p1.text())
 		.then(lang => fetch('data.json')
