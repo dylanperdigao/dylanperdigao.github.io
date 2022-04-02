@@ -1,6 +1,6 @@
 {
   "profile" : {
-    "url" : "icons/other/profile.jpeg"
+    "url" : "https://github.com/DylanPerdigao/dylanperdigao.github.io/blob/main/icons/other/profile.jpeg?raw=true"
   },
   "sections": [
     "about",
@@ -20,28 +20,28 @@
     {
       "acronym": "PT",
       "level": "C2",
-      "img": "icons/languages/PT.png"
+      "img": "https://github.com/DylanPerdigao/dylanperdigao.github.io/blob/main/icons/languages/PT.png?raw=true"
     },
     {
       "acronym": "FR",
       "level": "C2",
-      "img": "icons/languages/FR.png"
+      "img": "https://github.com/DylanPerdigao/dylanperdigao.github.io/blob/main/icons/languages/FR.png?raw=true"
     },
     {
       "acronym": "EN",
       "level": "B2",
-      "img": "icons/languages/EN.png"
+      "img": "https://github.com/DylanPerdigao/dylanperdigao.github.io/blob/main/icons/languages/EN.png?raw=true"
     },
     {
       "acronym": "DE",
       "level": "B1",
-      "img": "icons/languages/DE.png"
+      "img": "https://github.com/DylanPerdigao/dylanperdigao.github.io/blob/main/icons/languages/DE.png?raw=true"
     }
   ],
   "formation": [
     {
       "institution": "UC",
-      "img": "icons/formation/FCTUC.png",
+      "img": "https://github.com/DylanPerdigao/dylanperdigao.github.io/blob/main/icons/formation/FCTUC.png?raw=true",
       "url": "https://www.uc.pt",
       "qualifications": [
         {
@@ -58,7 +58,7 @@
     },
     {
       "institution": "LDDR",
-      "img": "icons/formation/LDdR.png",
+      "img": "'https://github.com/DylanPerdigao/dylanperdigao.github.io/blob/main/icons/formation/LDdR.png?raw=true",
       "url": "https://www.lddr.ch",
       "qualifications": [
         {
@@ -76,27 +76,27 @@
         {
         "name": "C",
         "level": 85,
-        "img": "icons/programmingLanguages/c.png"
+        "img": "https://github.com/DylanPerdigao/dylanperdigao.github.io/blob/main/icons/programmingLanguages/c.png?raw=true"
         },
         {
           "name": "C++",
           "level": 70,
-          "img": "icons/programmingLanguages/cpp.png"
+          "img": "https://github.com/DylanPerdigao/dylanperdigao.github.io/blob/main/icons/programmingLanguages/cpp.png?raw=true"
         },
         {
           "name": "Java",
           "level": 90,
-          "img": "icons/programmingLanguages/java.png"
+          "img": "https://github.com/DylanPerdigao/dylanperdigao.github.io/blob/main/icons/programmingLanguages/java.png?raw=true"
         },
         {
           "name": "PHP",
           "level": 60,
-          "img": "icons/programmingLanguages/php.png"
+          "img": "https://github.com/DylanPerdigao/dylanperdigao.github.io/blob/main/icons/programmingLanguages/php.png?raw=true"
         },
         {
           "name": "Python",
           "level": 90,
-          "img": "icons/programmingLanguages/python.png"
+          "img": "https://github.com/DylanPerdigao/dylanperdigao.github.io/blob/main/icons/programmingLanguages/python.png?raw=true"
         }
       ]
     },
@@ -106,17 +106,17 @@
         {
           "name": "CSS",
           "level": 90,
-          "img": "icons/programmingLanguages/css.png"
+          "img": "https://github.com/DylanPerdigao/dylanperdigao.github.io/blob/main/icons/programmingLanguages/css.png?raw=true"
         },
         {
           "name": "HTML",
           "level": 90,
-          "img": "icons/programmingLanguages/html.png"
+          "img": "https://github.com/DylanPerdigao/dylanperdigao.github.io/blob/main/icons/programmingLanguages/html.png?raw=true"
         },
         {
           "name": "JavaScript",
           "level": 90,
-          "img": "icons/programmingLanguages/javascript.png"
+          "img": "https://github.com/DylanPerdigao/dylanperdigao.github.io/blob/main/icons/programmingLanguages/javascript.png?raw=true"
         }
       ]
     },
@@ -126,12 +126,12 @@
         {
           "name": "PostgreSQL",
           "level": 70,
-          "img": "icons/programmingLanguages/postgresql.png"
+          "img": "https://github.com/DylanPerdigao/dylanperdigao.github.io/blob/main/icons/programmingLanguages/postgresql.png?raw=true"
         },
         {
           "name": "SQLite",
           "level": 60,
-          "img": "icons/programmingLanguages/sqlite.png"
+          "img": "https://github.com/DylanPerdigao/dylanperdigao.github.io/blob/main/icons/programmingLanguages/sqlite.png?raw=true"
         }
       ]
     },
@@ -141,12 +141,12 @@
         {
           "name": "MatLAB",
           "level": 60,
-          "img": "icons/programmingLanguages/matlab.png"
+          "img": "https://github.com/DylanPerdigao/dylanperdigao.github.io/blob/main/icons/programmingLanguages/matlab.png?raw=true"
         },
         {
           "name": "R",
           "level": 10,
-          "img": "icons/programmingLanguages/r.png"
+          "img": "https://github.com/DylanPerdigao/dylanperdigao.github.io/blob/main/icons/programmingLanguages/r.png?raw=true"
         }
       ]
     },
@@ -156,17 +156,17 @@
         {
           "name": "C#",
           "level": 50,
-          "img": "icons/programmingLanguages/csharp.png"
+          "img": "https://github.com/DylanPerdigao/dylanperdigao.github.io/blob/main/icons/programmingLanguages/csharp.png?raw=true"
         },
         {
           "name": "Swift",
           "level": 20,
-          "img": "icons/programmingLanguages/swift.png"
+          "img": "https://github.com/DylanPerdigao/dylanperdigao.github.io/blob/main/icons/programmingLanguages/swift.png?raw=true"
         },
         {
           "name": "Outsystems",
           "level": 30,
-          "img": "icons/programmingLanguages/outsystems.png"
+          "img": "https://github.com/DylanPerdigao/dylanperdigao.github.io/blob/main/icons/programmingLanguages/outsystems.png?raw=true"
         }
       ]
     }
@@ -205,7 +205,7 @@
           "img": "https://images.credly.com/size/680x680/images/fc1352af-87fa-4947-ba54-398a0e63322e/security-compliance-and-identity-fundamentals-600x600.png",
           "url": "https://www.credly.com/badges/c8f62f94-347b-4d62-8f30-4d5482d4cb25/public_url"
         }
-        
+
       ]
     },
     {
