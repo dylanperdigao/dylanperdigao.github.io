@@ -70,7 +70,7 @@ function setProfile(lang,data){
 		"<p>"+lang.profile[0]+"</p>"+
 		"<p>"+lang.profile[1]+"</p>"+
 		"<div class='social'>" +
-			"<a href='https://www.linkedin.com/in/dylanperdigao'><img src='icons/social/linkedin-orange.png' id='linkedin' class='social_profile' alt='linkedin logo'></a>" +
+			"<a href='https://www.linkedin.com/in/dylanperdigao'><img src='http://127.0.0.1/icons/social/linkedin-orange.png' id='linkedin' class='social_profile' alt='linkedin logo'></a>" +
 			"<a href='https://www.github.com/DylanPerdigao'><img src='icons/social/github-orange.png' id='github' class='social_profile' alt='github logo'></a>" +
 		"</div>"
 	;
