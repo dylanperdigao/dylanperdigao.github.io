@@ -1,12 +1,12 @@
 "use strict";
 
 function main(l){
-	document.getElementById("current-flag").src = "icons/languages/"+l+"-flag-orange.png"
+	document.getElementById("current-flag").src = "https://github.com/DylanPerdigao/dylanperdigao.github.io/blob/main/icons/languages/"+l+"-flag-orange.png?raw=true"
 	let html =""
-		html+="<a onClick='main(\"en\")'><img src='icons/languages/en-flag-orange.png' id='en-flag' width='512' alt='EN'></a>"
-		html+="<a onClick='main(\"pt\")'><img src='icons/languages/pt-flag-orange.png' id='pt-flag' width='512' alt='PT'></a>"
-		html+="<a onClick='main(\"fr\")'><img src='icons/languages/fr-flag-orange.png' id='fr-flag' width='512' alt='FR'></a>"
-		html+="<a onClick='main(\"de\")'><img src='icons/languages/de-flag-orange.png' id='de-flag' width='512' alt='DE'></a>"
+		html+="<a onClick='main(\"en\")'><img src='https://github.com/DylanPerdigao/dylanperdigao.github.io/blob/main/icons/languages/en-flag-orange.png?raw=true' id='en-flag' width='512' alt='EN'></a>"
+		html+="<a onClick='main(\"pt\")'><img src='https://github.com/DylanPerdigao/dylanperdigao.github.io/blob/main/icons/languages/pt-flag-orange.png?raw=true' id='pt-flag' width='512' alt='PT'></a>"
+		html+="<a onClick='main(\"fr\")'><img src='https://github.com/DylanPerdigao/dylanperdigao.github.io/blob/main/icons/languages/fr-flag-orange.png?raw=true' id='fr-flag' width='512' alt='FR'></a>"
+		html+="<a onClick='main(\"de\")'><img src='https://github.com/DylanPerdigao/dylanperdigao.github.io/blob/main/icons/languages/de-flag-orange.png?raw=true' id='de-flag' width='512' alt='DE'></a>"
 	document.getElementById("drop-flags").innerHTML = html
 	document.getElementById(l+"-flag").parentElement.remove()
 	fetch('lang/'+l+'.json')
@@ -71,7 +71,7 @@ function setProfile(lang,data){
 		"<p>"+lang.profile[1]+"</p>"+
 		"<div class='social'>" +
 			"<a href='https://www.linkedin.com/in/dylanperdigao'><img src='https://github.com/DylanPerdigao/dylanperdigao.github.io/blob/main/icons/social/linkedin-orange.png?raw=true' id='linkedin' class='social_profile' alt='linkedin logo'></a>" +
-			"<a href='https://www.github.com/DylanPerdigao'><img src='icons/social/github-orange.png' id='github' class='social_profile' alt='github logo'></a>" +
+			"<a href='https://www.github.com/DylanPerdigao'><img src='https://github.com/DylanPerdigao/dylanperdigao.github.io/blob/main/icons/social/github-orange.png?raw=true' id='github' class='social_profile' alt='github logo'></a>" +
 		"</div>"
 	;
 }
@@ -79,17 +79,17 @@ function setAbout(lang,data){
 	document.getElementById("aboutDiv").innerHTML =
 		"<h1>"+lang.about+" <gray>{</gray></h1>"+
 		"<div class='about'>"+
-			"<p><img src='icons/interests/cake-orange.png' class='about_icon' alt='cake icon'> : <green>"+data.birth+"</green> (<green>"+getAge(data.birth)+"</green>),</p>"+
-			"<p><img src='icons/interests/earth-orange.png' class='about_icon' alt='earth icon'> : <green>"+lang[data.nationality[0]]+"</green> & <green>"+lang[data.nationality[1]]+"</green>,</p>"+
-			"<p><img src='icons/interests/pin-orange.png' class='about_icon' alt='pin icon'> : <green>"+data.city+"</green></p>"+
+			"<p><img src='https://github.com/DylanPerdigao/dylanperdigao.github.io/blob/main/icons/interests/cake-orange.png?raw=true' class='about_icon' alt='cake icon'> : <green>"+data.birth+"</green> (<green>"+getAge(data.birth)+"</green>),</p>"+
+			"<p><img src='https://github.com/DylanPerdigao/dylanperdigao.github.io/blob/main/icons/interests/earth-orange.png?raw=true' class='about_icon' alt='earth icon'> : <green>"+lang[data.nationality[0]]+"</green> & <green>"+lang[data.nationality[1]]+"</green>,</p>"+
+			"<p><img src='https://github.com/DylanPerdigao/dylanperdigao.github.io/blob/main/icons/interests/pin-orange.png?raw=true' class='about_icon' alt='pin icon'> : <green>"+data.city+"</green></p>"+
 			"<h2>"+lang.interests+"<gray> {</gray></h2>"+
 			"<div class='interests'>"+
-				"<div class='col_interests'><img src='icons/interests/soccer-orange.png' class='interests_icon' alt='soccer icon'> : <green>"+lang.soccer+"</green>, </div>"+
-				"<div class='col_interests'><img src='icons/interests/ski-orange.png' class='interests_icon' alt='ski icon'> : <green>"+lang.ski+"</green>, </div>" +
-				"<div class='col_interests'><img src='icons/interests/bicycle-orange.png' class='interests_icon' alt='bike icon'> : <green>"+lang.bike+"</green>, </div>"+
-				"<div class='col_interests'><img src='icons/interests/atom-orange.png' class='interests_icon' alt='science icon'> : <green>"+lang.science+"</green>, </div>" +
-				"<div class='col_interests'><img src='icons/interests/programing-orange.png' class='interests_icon' alt='programing icon'> : <green>"+lang.programing+"</green>, </div>"+
-				"<div class='col_interests'><img src='icons/interests/shuttle-orange.png' class='interests_icon' alt='shuttle icon'> : <green>"+lang.space+"</green></div>" +
+				"<div class='col_interests'><img src='https://github.com/DylanPerdigao/dylanperdigao.github.io/blob/main/icons/interests/soccer-orange.png?raw=true' class='interests_icon' alt='soccer icon'> : <green>"+lang.soccer+"</green>, </div>"+
+				"<div class='col_interests'><img src='https://github.com/DylanPerdigao/dylanperdigao.github.io/blob/main/icons/interests/ski-orange.png?raw=true' class='interests_icon' alt='ski icon'> : <green>"+lang.ski+"</green>, </div>" +
+				"<div class='col_interests'><img src='https://github.com/DylanPerdigao/dylanperdigao.github.io/blob/main/icons/interests/bicycle-orange.png?raw=true' class='interests_icon' alt='bike icon'> : <green>"+lang.bike+"</green>, </div>"+
+				"<div class='col_interests'><img src='https://github.com/DylanPerdigao/dylanperdigao.github.io/blob/main/icons/interests/atom-orange.png?raw=true' class='interests_icon' alt='science icon'> : <green>"+lang.science+"</green>, </div>" +
+				"<div class='col_interests'><img src='https://github.com/DylanPerdigao/dylanperdigao.github.io/blob/main/icons/interests/programing-orange.png?raw=true' class='interests_icon' alt='programing icon'> : <green>"+lang.programing+"</green>, </div>"+
+				"<div class='col_interests'><img src='https://github.com/DylanPerdigao/dylanperdigao.github.io/blob/main/icons/interests/shuttle-orange.png?raw=true' class='interests_icon' alt='shuttle icon'> : <green>"+lang.space+"</green></div>" +
 			"</div><h2><gray>}</gray></h2>"+
 		"</div>"+
 		"<h1><gray>}</gray></h1>"
