@@ -71,16 +71,16 @@ HEADER
 
 **/
 #en-flag:hover{
-	content: url('../icons/languages/en-flag-green.png');
+	content: url('https://github.com/DylanPerdigao/dylanperdigao.github.io/blob/main/icons/languages/en-flag-green.png?raw=true');
 }
 #pt-flag:hover{
-	content: url('../icons/languages/pt-flag-green.png');
+	content: url('https://github.com/DylanPerdigao/dylanperdigao.github.io/blob/main/icons/languages/pt-flag-green.png?raw=true');
 }
 #fr-flag:hover{
-	content: url('../icons/languages/fr-flag-green.png');
+	content: url('https://github.com/DylanPerdigao/dylanperdigao.github.io/blob/main/icons/languages/fr-flag-green.png?raw=true');
 }
 #de-flag:hover{
-	content: url('../icons/languages/de-flag-green.png');
+	content: url('https://github.com/DylanPerdigao/dylanperdigao.github.io/blob/main/icons/languages/de-flag-green.png?raw=true');
 }
 img#neuralnetwork{
 	position: absolute;
@@ -344,10 +344,10 @@ img.footer{
 	width : 20px;
 }
 #github:hover{
-	content: url('../icons/social/github-green.png');
+	content: url('https://github.com/DylanPerdigao/dylanperdigao.github.io/blob/main/icons/social/github-green.png?raw=true');
 }
 #linkedin:hover{
-	content: url('../icons/social/linkedin-green.png');
+	content: url('https://github.com/DylanPerdigao/dylanperdigao.github.io/blob/main/icons/social/linkedin-green.png?raw=true');
 }
 
 /*
