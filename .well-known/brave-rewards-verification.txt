@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: dylanperdigao.com
+Token: 92b46888fee2b9a70abd691b078411e030c7be57fe18f7711df9be10fe945859
