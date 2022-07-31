@@ -145,7 +145,7 @@
         },
         {
           "name": "R",
-          "level": 10,
+          "level": 50,
           "img": "https://github.com/DylanPerdigao/dylanperdigao.github.io/blob/main/icons/programmingLanguages/r.png?raw=true"
         }
       ]
@@ -204,8 +204,19 @@
           "date": "11/2021",
           "img": "https://images.credly.com/size/680x680/images/fc1352af-87fa-4947-ba54-398a0e63322e/security-compliance-and-identity-fundamentals-600x600.png",
           "url": "https://www.credly.com/badges/c8f62f94-347b-4d62-8f30-4d5482d4cb25/public_url"
+        },
+        {
+          "name": "Dynamics 365 Fundamentals (CRM)",
+          "date": "07/2022",
+          "img": "https://images.credly.com/size/680x680/images/f611a90e-b8e2-4fdf-9bd6-9e8d5f4c30e8/dynamics365-fundamentals-erp-600x600.png",
+          "url": "https://www.credly.com/badges/42d18d24-f7de-42bb-8246-a88f55c530e6/public_url"
+        },
+        {
+          "name": "Dynamics 365 Fundamentals (ERP)",
+          "date": "07/2022",
+          "img": "https://images.credly.com/size/680x680/images/f611a90e-b8e2-4fdf-9bd6-9e8d5f4c30e8/dynamics365-fundamentals-erp-600x600.png",
+          "url": "https://www.credly.com/badges/46ab64fc-8e33-4405-8578-d6feaa01c37f/public_url"
         }
-
       ]
     },
     {
