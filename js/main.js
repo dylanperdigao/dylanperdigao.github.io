@@ -73,6 +73,14 @@ function setProfile(lang,data){
 		"<div class='social'>" +
 			"<a href='https://www.linkedin.com/in/dylanperdigao'><img src='https://github.com/DylanPerdigao/dylanperdigao.github.io/blob/main/icons/social/linkedin-orange.png?raw=true' id='linkedin' class='social_profile' alt='linkedin logo'></a>" +
 			"<a href='https://www.github.com/DylanPerdigao'><img src='https://github.com/DylanPerdigao/dylanperdigao.github.io/blob/main/icons/social/github-orange.png?raw=true' id='github' class='social_profile' alt='github logo'></a>" +
+			"<a href='https://www.x.com/dylanperdigao'><img src='https://github.com/DylanPerdigao/dylanperdigao.github.io/blob/main/icons/social/x-orange.png?raw=true' id='x' class='social_profile' alt='x logo'></a>" +
+			"<a href='https://www.researchgate.net/profile/Dylan-Perdigao'><img src='https://github.com/DylanPerdigao/dylanperdigao.github.io/blob/main/icons/social/research_gate-orange.png?raw=true' id='research_gate' class='social_profile' alt='research gate logo'></a>" +
+			"<a href='https://orcid.org/0000-0001-6923-900X'><img src='https://github.com/DylanPerdigao/dylanperdigao.github.io/blob/main/icons/social/orcid-orange.png?raw=true' id='orcid' class='social_profile' alt='orcid logo'></a>" +
+			"<a href='https://www.cisuc.uc.pt/en/people/dgp'><img src='https://github.com/DylanPerdigao/dylanperdigao.github.io/blob/main/icons/social/cisuc-orange.png?raw=true' id='cisuc' class='social_profile' alt='cisuc logo'></a>" +
+			"<a href='https://scholar.google.com/citations?user=sF7oYBYAAAAJ&hl=en'><img src='https://github.com/DylanPerdigao/dylanperdigao.github.io/blob/main/icons/social/google_scholar-orange.png?raw=true' id='google_scholar' class='social_profile' alt='google scholar logo'></a>" +
+			"<a href='https://www.cienciavitae.pt/portal/B91A-62FA-29B2'><img src='https://github.com/DylanPerdigao/dylanperdigao.github.io/blob/main/icons/social/ciencia_vitae-orange.png?raw=true' id='ciencia_vitae' class='social_profile' alt='ciencia vitae logo'></a>" +
+			"<a href='https://www.scopus.com/authid/detail.uri?authorId=57904609600'><img src='https://github.com/DylanPerdigao/dylanperdigao.github.io/blob/main/icons/social/scopus-orange.png?raw=true' id='scopus' class='social_profile' alt='scopus logo'></a>" +
+			"<a href='https://www.webofscience.com/wos/author/record/GLS-1086-2022'><img src='https://github.com/DylanPerdigao/dylanperdigao.github.io/blob/main/icons/social/web_of_science-orange.png?raw=true' id='web_of_science' class='social_profile' alt='web of science logo'></a>" +
 		"</div>"
 	;
 }
