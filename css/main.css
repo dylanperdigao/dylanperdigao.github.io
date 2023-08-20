@@ -249,6 +249,30 @@ div.institutionGroup{
 }
 /** 
 
+Publications 
+
+**/
+@media (min-width: 801px) {
+	img.publications {
+		height: 300px;
+		width: 200px;
+	}
+
+	.publicationsGroup {
+		display: block;
+		margin-left: 10%;
+	}
+
+	.imgbox {
+		display:inline-block;
+		margin: auto;
+		text-align: center;
+		vertical-align: middle;
+		min-width: 50%;
+	}
+}
+/** 
+
 Certifications 
 
 **/
