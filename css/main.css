@@ -124,8 +124,8 @@ ABOUT
 **/
 #profileDiv .social{
 	display: inline-flex;
-	margin: 5% 40%;
-	width: 20%;
+	margin: 5% 0;
+	width: 100%;
 }
 #profileDiv .social a{
 	margin: auto

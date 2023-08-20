@@ -130,15 +130,19 @@ Publications
 		height: 150px;
 		width: 100px;
 	}
+    .pub_info{
+        width: 65%;
+        margin: 0 5%;
+    }
     .pub_type{
-        width: 70% !important;
+        width: 90% !important;
     }
     .pub_award{
-        width: 70% !important;
+        width: 90% !important;
     }
     .pub_date{
         display: block !important;
-        width: 70% !important;
+        width: 90% !important;
     }
 }
 /** 
