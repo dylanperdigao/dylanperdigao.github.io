@@ -7,6 +7,7 @@
     "languages",
     "formation",
     "skills",
+    "publications",
     "certifications",
     "projects",
     "contact"
@@ -47,7 +48,7 @@
         {
           "name": "Master",
           "begin_date": "2021",
-          "end_date": "now"
+          "end_date": "2023"
         },
         {
           "name": "Bachelor",
@@ -169,6 +170,75 @@
           "img": "https://github.com/DylanPerdigao/dylanperdigao.github.io/blob/main/icons/programmingLanguages/outsystems.png?raw=true"
         }
       ]
+    }
+  ],
+  "publications": [
+    {
+      "name": "Question Answering over Linked Data with GPT-3",
+      "authors": [
+        "Bruno Faria",
+        "Dylan Perdigão",
+        "Hugo Gonçalo Oliveira"
+      ],
+      "type": "Conference Paper",
+      "publisher": "12th Symposium on Languages, Applications and Technologies (SLATE 2023)",
+      "date": "15/08/2023",
+      "location": "Vila do Conde, Portugal",
+      "img": "https://github.com/DylanPerdigao/dylanperdigao.github.io/blob/main/icons/publications/4.jpg",
+      "url": "http://dx.doi.org/10.4230/OASIcs.SLATE.2023.1",
+      "award": "Best Paper Award",
+      "award_url" : "https://slate-conf.org/2023/home",
+      "award_img": null
+    },
+    {
+      "name": "Towards an Intrusion Detection System for Smart Grids: A Federated Approach",
+      "authors": [
+        "Dylan Perdigão"
+      ],
+      "type": "Thesis",
+      "publisher": "University of Coimbra",
+      "date": "24/07/2023",
+      "location": "Coimbra, Portugal",
+      "img": "https://github.com/DylanPerdigao/dylanperdigao.github.io/blob/main/icons/publications/3.jpg",
+      "url": "http://hdl.handle.net/10316/107912",
+      "award": null,
+      "award_url" : null,
+      "award_img": null
+    },
+    {
+      "name": "Towards An Intrusion Detection System For Smart Grids: A Federated Approach",
+      "authors": [
+        "Dylan Perdigão",
+        "Pedro Henriques Abreu",
+        "Tiago J. Cruz"
+      ],
+      "type": "Poster",
+      "publisher": "22nd European Conference on Cyber Warfare and Security (ECCWS 2023)",
+      "date": "23/06/2023",
+      "location": "Athens, Greece",
+      "img": "https://github.com/DylanPerdigao/dylanperdigao.github.io/blob/main/icons/publications/2.jpg",
+      "url": "http://dx.doi.org/10.13140/RG.2.2.30018.96964",
+      "award": "Best Poster Award",
+      "award_url" : "https://www.academic-conferences.org/conferences/eccws/eccws-future-and-past/",
+      "award_img": null
+    },
+    {
+      "name": "The Joint Role of Batch Size and Query Strategy in Active Learning-Based Prediction - A Case Study in the Heart Attack Domain",
+      "authors": [
+        "Bruno Faria", 
+        "Dylan Perdigão",
+        "Joana Brás",
+        "Luis Macedo" 
+      ],
+      "type": "Conference Paper",
+      "publisher": "21st EPIA Conference on Artificial Intelligence (EPIA 2022)",
+      "date": "13/09/2022",
+      "location": "Lisbon, Portugal",
+      "img": "https://github.com/DylanPerdigao/dylanperdigao.github.io/blob/main/icons/publications/1.jpg",
+      "url": "http://dx.doi.org/10.1007/978-3-031-16474-3_38",
+      "award": null,
+      "award_url" : null,
+      "award_img": null
     }
   ],
   "certifications": [

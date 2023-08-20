@@ -25,6 +25,7 @@ function setData(lang,data,projects){
 	setLanguages(lang,data.languages);
 	setFormation(lang,data.formation);
 	setSkills(lang,data.skills);
+	setPublications(lang,data.publications);
 	setCertifications(lang,data.certifications);
 	setProjects(lang,projects);
 	setContact(lang);
@@ -42,7 +43,7 @@ function getLangPercent(level){
 		case "B1": return 3/6;
 		case "B2": return 4/6;
 		case "C1": return 5/6;
-		case "C2": return 6/6;
+		case "C2": return 1;
 	}
 }
 function getAge(birth){
@@ -51,7 +52,7 @@ function getAge(birth){
 	let age = today.getFullYear() - birthday.getFullYear();
 	if (birthday.getMonth >  today.getMonth()) age--;
 	else {
-		if (birthday.getMonth ===  today.getMonth()) {
+		if (birthday.getMonth ==  today.getMonth()) {
 			if (birthday.getDate() >  today.getDate()) age--;
 		}
 	}
@@ -59,8 +60,8 @@ function getAge(birth){
 }
 function setSections(lang,sections){
 	let html = "";
-	for(let s=0; s<sections.length;s++){
-		html+= "<a href='#"+sections[s]+"'>"+lang[sections[s]]+" </a>"
+	for(const s of sections){
+		html+= "<a href='#"+s+"'>"+lang[s]+" </a>"
 	}
 	document.getElementById("sections").innerHTML = html;
 }
@@ -99,20 +100,20 @@ function setLanguages(lang,languages){
 	let html = "<h1>"+lang.languages+" <gray>{</gray></h1>\n" +
 				"<div id='languagesDiv'>"
 	;
-	for (let i=0; i<languages.length; i++){
+	for (const l of languages){
 		let x = ""
-		if(languages[i].acronym==='PT'){
+		if(l.acronym==='PT'){
 			x ="onclick='secret1()'"
 		}
 		html +=
 			"<div class='skillLine'>"+
 			"<div class='col'>"+
-			"<img class='skill' src='"+languages[i].img+"'"+x+"alt='"+lang[languages[i].acronym]+" flag'>" +
-			"<label><orange>'"+lang[languages[i].acronym]+"'</orange> :</label>" +
+			"<img class='skill' src='"+l.img+"'"+x+"alt='"+lang[l.acronym]+" flag'>" +
+			"<label><orange>'"+lang[l.acronym]+"'</orange> :</label>" +
 			"</div>"+
 			"<div class='col'>"+
-			"<progress value='"+getLangPercent(languages[i].level)+"'></progress>" +
-			"<label><green>"+languages[i].level+"</green>,</label>"+
+			"<progress value='"+getLangPercent(l.level)+"'></progress>" +
+			"<label><green>"+l.level+"</green>,</label>"+
 			"</div>"+
 			"</div>"
 		;
@@ -185,6 +186,42 @@ function setSkills(lang,skills){
 	;
 	document.getElementById("skills").innerHTML = html;
 }
+
+function setPublications(lang,publications){
+	let html=	"<h1>"+lang.publications+" <gray>{</gray></h1>"+
+				"<div id='publicationsDiv'>"
+	;
+	for (const p of publications){
+		html +=
+			"<h2>"+p.name+"<gray className='gray'> {</gray></h2>"+
+			"<div class='publicationsGroup'>"+
+			"<div class='imgbox'>"+
+			"<a href='"+p.url+"'>"+
+			"<img src='"+p.img+"' class='publications' alt='publication cover'>"+
+			"</a>"+
+			"<a href='"+p.url+"'>"+p.type+"</a>"
+		;
+		if (p.award != null){
+			html += "<a href='"+p.award_url+"'>"+ p.award+"</a>";
+		}
+		html +=
+			"<p><orange>'"+p.date+"'</orange>"+
+			"<p><orange>'Authors'</orange> : <green>"+p.authors+"</green></p>"+
+			"<p><orange>'"+p.publisher+"'</orange> : <green>"+p.location+"</green></p>"+
+			"</div>"
+		;
+		html +=
+			"</div>"+
+			"<h2><gray>}</gray></h2>"
+		;
+	}
+	html +=
+		"</div>"+
+		"<h1><gray>}</gray></h1>"
+	;
+	document.getElementById("publications").innerHTML = html;
+}
+
 function setCertifications(lang,certifications){
 	let html=	"<h1>"+lang.certifications+" <gray>{</gray></h1>"+
 				"<div id='certificationsDiv'>"
@@ -216,6 +253,7 @@ function setCertifications(lang,certifications){
 	;
 	document.getElementById("certifications").innerHTML = html;
 }
+
 function setProjects(lang,projects){
 	let html=	"<h1>"+lang.projects+" <gray>{</gray></h1>"+
 				"<div id='projectsDiv'>"
