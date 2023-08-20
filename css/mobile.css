@@ -122,6 +122,27 @@ SKILLS
 }
 /** 
 
+Publications 
+
+**/
+@media (max-width: 800px) {
+	img.publications {
+		height: 150px;
+		width: 100px;
+	}
+    .pub_type{
+        width: 40%;
+    }
+    .pub_award{
+        width: 40%;
+    }
+    .pub_date{
+        display: block;
+        width: 50%;
+    }
+}
+/** 
+
 Certifications 
 
 **/

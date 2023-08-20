@@ -257,20 +257,66 @@ Publications
 		height: 300px;
 		width: 200px;
 	}
-
-	.publicationsGroup {
-		display: block;
-		margin-left: 10%;
-	}
-
-	.imgbox {
-		display:inline-block;
-		margin: auto;
-		text-align: center;
-		vertical-align: middle;
-		min-width: 50%;
-	}
 }
+.publicationsGroup {
+	display: flex;
+	margin-left: 5%;
+	width: 90%;
+}
+
+.pub_info{
+	min-width: 70%;
+}
+.pub_type{
+	display: inline-block;
+	width: 30%;
+	border-radius: 5px;
+	padding: 1%;
+	margin: 1%;
+	background-color: #CE9178;
+	color : #252526;
+	text-decoration: none;
+	text-align: center;
+}
+.pub_type:hover{
+	background-color:#4EC8AF;
+	color : #252526;
+	cursor: pointer;
+}
+
+.pub_award{
+	display: inline-block;
+	width: 30%;
+	border-radius: 5px;
+	padding: 1%;
+	margin: 1%;
+	background-color: gold;
+	color : #252526;
+	text-decoration: none;
+	text-align: center;
+}
+
+.pub_date{
+	display: inline-block;
+	width: 20%;
+	border-radius: 10px;
+	padding: 1%;
+	margin: 1%;
+	background-color: transparent;
+	color : #4EC8AF;
+	border: #4EC8AF solid 1px;
+	text-decoration: none;
+	text-align: center;
+}
+
+.pub_imgbox {
+	display:inline-block;
+	margin: 0;
+	text-align: center;
+	vertical-align: middle;
+	min-width: 30%;
+}
+
 /** 
 
 Certifications 
@@ -373,7 +419,30 @@ img.footer{
 #linkedin:hover{
 	content: url('https://github.com/DylanPerdigao/dylanperdigao.github.io/blob/main/icons/social/linkedin-green.png?raw=true');
 }
-
+#x:hover{
+	content: url('https://github.com/DylanPerdigao/dylanperdigao.github.io/blob/main/icons/social/x-green.png?raw=true');
+}
+#researchgate:hover{
+	content: url('https://github.com/DylanPerdigao/dylanperdigao.github.io/blob/main/icons/social/research_gate-green.png?raw=true');
+}
+#orcid:hover{
+	content: url('https://github.com/DylanPerdigao/dylanperdigao.github.io/blob/main/icons/social/orcid-green.png?raw=true');
+}
+#cisuc:hover{
+	content: url('https://github.com/DylanPerdigao/dylanperdigao.github.io/blob/main/icons/social/cisuc-green.png?raw=true');
+}
+#google_scholar:hover{
+	content: url('https://github.com/DylanPerdigao/dylanperdigao.github.io/blob/main/icons/social/google_scholar-green.png?raw=true');
+}
+#ciencia_vitae:hover{
+	content: url('https://github.com/DylanPerdigao/dylanperdigao.github.io/blob/main/icons/social/ciencia_vitae-green.png?raw=true');
+}
+#scopus:hover{
+	content: url('https://github.com/DylanPerdigao/dylanperdigao.github.io/blob/main/icons/social/scopus-green.png?raw=true');
+}
+#web_of_science:hover{
+	content: url('https://github.com/DylanPerdigao/dylanperdigao.github.io/blob/main/icons/social/web_of_science-green.png?raw=true');
+}
 /*
 
 ANIMATION

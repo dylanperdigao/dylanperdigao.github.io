@@ -203,18 +203,18 @@ function setPublications(lang,publications){
 		html +=
 			"<h2>"+p.name+"<gray className='gray'> {</gray></h2>"+
 			"<div class='publicationsGroup'>"+
-			"<div class='imgbox'>"+
+			"<div class='pub_imgbox'>"+
 			"<a href='"+p.url+"'>"+
 			"<img src='"+p.img+"' class='publications' alt='publication cover'>"+
 			"</a>"+
-			"<a href='"+p.url+"'>"+p.type+"</a>"
+			"</div><div class='pub_info'><a href='"+p.url+"' class='pub_type'>"+p.type+"</a>"
 		;
 		if (p.award != null){
-			html += "<a href='"+p.award_url+"'>"+ p.award+"</a>";
+			html += "<a href='"+p.award_url+"' class='pub_award'>"+ p.award+"</a>";
 		}
 		html +=
-			"<p><orange>'"+p.date+"'</orange>"+
-			"<p><orange>'Authors'</orange> : <green>"+p.authors+"</green></p>"+
+			"<span class='pub_date'>"+p.date+"</span>"+
+			"<p><orange>'Authors'</orange> : <gray>[ </gray><green>"+p.authors+"</green><gray> ]</gray></p>"+
 			"<p><orange>'"+p.publisher+"'</orange> : <green>"+p.location+"</green></p>"+
 			"</div>"
 		;
