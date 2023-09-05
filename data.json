@@ -30,7 +30,7 @@
     },
     {
       "acronym": "EN",
-      "level": "B2",
+      "level": "C1",
       "img": "https://github.com/DylanPerdigao/dylanperdigao.github.io/blob/main/icons/languages/EN.png?raw=true"
     },
     {
@@ -76,12 +76,12 @@
       "list" : [
         {
         "name": "C",
-        "level": 85,
+        "level": 80,
         "img": "https://github.com/DylanPerdigao/dylanperdigao.github.io/blob/main/icons/programmingLanguages/c.png?raw=true"
         },
         {
           "name": "C++",
-          "level": 70,
+          "level": 80,
           "img": "https://github.com/DylanPerdigao/dylanperdigao.github.io/blob/main/icons/programmingLanguages/cpp.png?raw=true"
         },
         {
@@ -126,12 +126,12 @@
       "list": [
         {
           "name": "PostgreSQL",
-          "level": 70,
+          "level": 80,
           "img": "https://github.com/DylanPerdigao/dylanperdigao.github.io/blob/main/icons/programmingLanguages/postgresql.png?raw=true"
         },
         {
           "name": "SQLite",
-          "level": 60,
+          "level": 80,
           "img": "https://github.com/DylanPerdigao/dylanperdigao.github.io/blob/main/icons/programmingLanguages/sqlite.png?raw=true"
         }
       ]
@@ -141,12 +141,12 @@
       "list": [
         {
           "name": "MatLAB",
-          "level": 60,
+          "level": 70,
           "img": "https://github.com/DylanPerdigao/dylanperdigao.github.io/blob/main/icons/programmingLanguages/matlab.png?raw=true"
         },
         {
           "name": "R",
-          "level": 50,
+          "level": 70,
           "img": "https://github.com/DylanPerdigao/dylanperdigao.github.io/blob/main/icons/programmingLanguages/r.png?raw=true"
         }
       ]
